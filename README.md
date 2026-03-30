@@ -42,7 +42,8 @@ autodl-tmp/
 ├── metrics.py                      # Dice, IoU, HD95, Precision, Recall + loss functions
 ├── train.py                        # Training script (single fold or 5-fold CV)
 ├── predict.py                      # Inference + evaluation on new volumes
-└── visualize_results.py            # Prediction figures and learning curves
+├── visualize_results.py            # Prediction figures and learning curves
+└── Extend                          # Try to do domain adaptation
 ```
 
 ---
@@ -145,14 +146,6 @@ python predict.py \
 
 ```bash
 cat ./results_ood/ood_summary.txt
-```
-
----
-
-## Dependencies
-
-```bash
-pip install torch torchvision scipy scikit-image matplotlib tifffile
 ```
 
 ---
