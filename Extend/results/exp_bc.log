@@ -1,0 +1,180 @@
+nohup: ignoring input
+Device: cuda
+
+============================================================
+EXP B: Fine-tune Pretrained | strategy=ch0_only | fold=1
+============================================================
+  Loaded: epoch=25, best_dice=0.8820
+  [Warning] MONAI not installed. Using basic PyTorch augmentation.
+  Loaded 106 patches from ['sample_2']
+
+  Training (fine-tune): 50 epochs
+    Epoch   1/50 | loss=0.7256 | lr=9.99e-05 | 13.8s
+    Epoch  10/50 | loss=0.3678 | lr=9.05e-05 | 12.8s
+    Epoch  20/50 | loss=0.3354 | lr=6.55e-05 | 12.8s
+    Epoch  30/50 | loss=0.3087 | lr=3.45e-05 | 12.7s
+    Epoch  40/50 | loss=0.2945 | lr=9.55e-06 | 12.8s
+    Epoch  50/50 | loss=0.2889 | lr=0.00e+00 | 12.8s
+  Running 2.5D inference...
+  Optimal threshold: 0.90
+  Dice=0.6510  Prec=0.4856  Rec=0.9871  clDice=0.4233874767498266
+
+============================================================
+EXP C: Train From Scratch | strategy=ch0_only | fold=1
+============================================================
+  Created fresh FullAttentionUNet (random init)
+  [Warning] MONAI not installed. Using basic PyTorch augmentation.
+  Loaded 106 patches from ['sample_2']
+
+  Training (from-scratch): 100 epochs
+    Epoch   1/100 | loss=0.6981 | lr=1.00e-03 | 12.9s
+    Epoch  10/100 | loss=0.3742 | lr=9.76e-04 | 12.9s
+    Epoch  20/100 | loss=0.3611 | lr=9.05e-04 | 12.8s
+    Epoch  30/100 | loss=0.3164 | lr=7.94e-04 | 12.7s
+    Epoch  40/100 | loss=0.3054 | lr=6.55e-04 | 12.8s
+    Epoch  50/100 | loss=0.3287 | lr=5.00e-04 | 12.8s
+    Epoch  60/100 | loss=0.2801 | lr=3.45e-04 | 12.8s
+    Epoch  70/100 | loss=0.2734 | lr=2.06e-04 | 12.8s
+    Epoch  80/100 | loss=0.2645 | lr=9.55e-05 | 12.8s
+    Epoch  90/100 | loss=0.2545 | lr=2.45e-05 | 12.8s
+    Epoch 100/100 | loss=0.2537 | lr=0.00e+00 | 12.8s
+  Running 2.5D inference...
+  Optimal threshold: 0.90
+  Dice=0.6027  Prec=0.4327  Rec=0.9930  clDice=0.28021649927306025
+
+============================================================
+EXP B: Fine-tune Pretrained | strategy=ch0_only | fold=2
+============================================================
+  Loaded: epoch=25, best_dice=0.8820
+  [Warning] MONAI not installed. Using basic PyTorch augmentation.
+  Loaded 121 patches from ['sample_1']
+
+  Training (fine-tune): 50 epochs
+    Epoch   1/50 | loss=0.3671 | lr=9.99e-05 | 14.7s
+    Epoch  10/50 | loss=0.2197 | lr=9.05e-05 | 14.7s
+    Epoch  20/50 | loss=0.1920 | lr=6.55e-05 | 14.7s
+    Epoch  30/50 | loss=0.1769 | lr=3.45e-05 | 14.7s
+    Epoch  40/50 | loss=0.1693 | lr=9.55e-06 | 14.7s
+    Epoch  50/50 | loss=0.1656 | lr=0.00e+00 | 14.7s
+  Running 2.5D inference...
+  Optimal threshold: 0.75
+  Dice=0.7846  Prec=0.7318  Rec=0.8455  clDice=0.7826331494242289
+
+============================================================
+EXP C: Train From Scratch | strategy=ch0_only | fold=2
+============================================================
+  Created fresh FullAttentionUNet (random init)
+  [Warning] MONAI not installed. Using basic PyTorch augmentation.
+  Loaded 121 patches from ['sample_1']
+
+  Training (from-scratch): 100 epochs
+    Epoch   1/100 | loss=0.6260 | lr=1.00e-03 | 14.8s
+    Epoch  10/100 | loss=0.2347 | lr=9.76e-04 | 14.7s
+    Epoch  20/100 | loss=0.2063 | lr=9.05e-04 | 14.7s
+    Epoch  30/100 | loss=0.1924 | lr=7.94e-04 | 14.7s
+    Epoch  40/100 | loss=0.1741 | lr=6.55e-04 | 14.7s
+    Epoch  50/100 | loss=0.1626 | lr=5.00e-04 | 14.7s
+    Epoch  60/100 | loss=0.1574 | lr=3.45e-04 | 14.7s
+    Epoch  70/100 | loss=0.1517 | lr=2.06e-04 | 14.7s
+    Epoch  80/100 | loss=0.1488 | lr=9.55e-05 | 14.7s
+    Epoch  90/100 | loss=0.1447 | lr=2.45e-05 | 14.7s
+    Epoch 100/100 | loss=0.1403 | lr=0.00e+00 | 14.7s
+  Running 2.5D inference...
+  Optimal threshold: 0.35
+  Dice=0.8229  Prec=0.7692  Rec=0.8846  clDice=0.7910975578581406
+
+============================================================
+EXP B: Fine-tune Pretrained | strategy=max_fusion | fold=1
+============================================================
+  Loaded: epoch=25, best_dice=0.8820
+  [Warning] MONAI not installed. Using basic PyTorch augmentation.
+  Loaded 106 patches from ['sample_2']
+
+  Training (fine-tune): 50 epochs
+    Epoch   1/50 | loss=0.8126 | lr=9.99e-05 | 12.8s
+    Epoch  10/50 | loss=0.4630 | lr=9.05e-05 | 12.8s
+    Epoch  20/50 | loss=0.4010 | lr=6.55e-05 | 12.8s
+    Epoch  30/50 | loss=0.3804 | lr=3.45e-05 | 12.8s
+    Epoch  40/50 | loss=0.3595 | lr=9.55e-06 | 12.8s
+    Epoch  50/50 | loss=0.3520 | lr=0.00e+00 | 12.8s
+  Running 2.5D inference...
+  Optimal threshold: 0.90
+  Dice=0.3967  Prec=0.2521  Rec=0.9305  clDice=0.18353016624578442
+
+============================================================
+EXP C: Train From Scratch | strategy=max_fusion | fold=1
+============================================================
+  Created fresh FullAttentionUNet (random init)
+  [Warning] MONAI not installed. Using basic PyTorch augmentation.
+  Loaded 106 patches from ['sample_2']
+
+  Training (from-scratch): 100 epochs
+    Epoch   1/100 | loss=0.7619 | lr=1.00e-03 | 12.8s
+    Epoch  10/100 | loss=0.4506 | lr=9.76e-04 | 12.8s
+    Epoch  20/100 | loss=0.4018 | lr=9.05e-04 | 12.8s
+    Epoch  30/100 | loss=0.3848 | lr=7.94e-04 | 12.8s
+    Epoch  40/100 | loss=0.3859 | lr=6.55e-04 | 12.8s
+    Epoch  50/100 | loss=0.3440 | lr=5.00e-04 | 12.8s
+    Epoch  60/100 | loss=0.3649 | lr=3.45e-04 | 12.7s
+    Early stopping at epoch 68
+  Running 2.5D inference...
+  Optimal threshold: 0.90
+  Dice=0.3292  Prec=0.1984  Rec=0.9671  clDice=0.15690127932709416
+
+============================================================
+EXP B: Fine-tune Pretrained | strategy=max_fusion | fold=2
+============================================================
+  Loaded: epoch=25, best_dice=0.8820
+  [Warning] MONAI not installed. Using basic PyTorch augmentation.
+  Loaded 121 patches from ['sample_1']
+
+  Training (fine-tune): 50 epochs
+    Epoch   1/50 | loss=0.7362 | lr=9.99e-05 | 14.8s
+    Epoch  10/50 | loss=0.4903 | lr=9.05e-05 | 14.7s
+    Epoch  20/50 | loss=0.4625 | lr=6.55e-05 | 14.7s
+    Epoch  30/50 | loss=0.4454 | lr=3.45e-05 | 14.7s
+    Epoch  40/50 | loss=0.4393 | lr=9.55e-06 | 14.8s
+    Epoch  50/50 | loss=0.4336 | lr=0.00e+00 | 14.7s
+  Running 2.5D inference...
+  Optimal threshold: 0.90
+  Dice=0.7402  Prec=0.6430  Rec=0.8720  clDice=0.7204618555771648
+
+============================================================
+EXP C: Train From Scratch | strategy=max_fusion | fold=2
+============================================================
+  Created fresh FullAttentionUNet (random init)
+  [Warning] MONAI not installed. Using basic PyTorch augmentation.
+  Loaded 121 patches from ['sample_1']
+
+  Training (from-scratch): 100 epochs
+    Epoch   1/100 | loss=0.7497 | lr=1.00e-03 | 14.7s
+    Epoch  10/100 | loss=0.4828 | lr=9.76e-04 | 14.6s
+    Epoch  20/100 | loss=0.4595 | lr=9.05e-04 | 14.7s
+    Epoch  30/100 | loss=0.4407 | lr=7.94e-04 | 14.6s
+    Epoch  40/100 | loss=0.4223 | lr=6.55e-04 | 14.7s
+    Epoch  50/100 | loss=0.4102 | lr=5.00e-04 | 14.8s
+    Epoch  60/100 | loss=0.3957 | lr=3.45e-04 | 14.6s
+    Epoch  70/100 | loss=0.3808 | lr=2.06e-04 | 14.7s
+    Epoch  80/100 | loss=0.3582 | lr=9.55e-05 | 14.8s
+    Epoch  90/100 | loss=0.3451 | lr=2.45e-05 | 14.7s
+    Epoch 100/100 | loss=0.3421 | lr=0.00e+00 | 14.8s
+  Running 2.5D inference...
+  Optimal threshold: 0.40
+  Dice=0.7809  Prec=0.7156  Rec=0.8594  clDice=0.720968659041972
+
+===========================================================================
+                            EXPERIMENT SUMMARY                             
+===========================================================================
+Experiment                              Dice     Prec   Recall   clDice
+---------------------------------------------------------------------------
+exp_b/ch0_only/fold_1                 0.6510   0.4856   0.9871   0.4234
+exp_b/ch0_only/fold_2                 0.7846   0.7318   0.8455   0.7826
+exp_b/max_fusion/fold_1               0.3967   0.2521   0.9305   0.1835
+exp_b/max_fusion/fold_2               0.7402   0.6430   0.8720   0.7205
+exp_c/ch0_only/fold_1                 0.6027   0.4327   0.9930   0.2802
+exp_c/ch0_only/fold_2                 0.8229   0.7692   0.8846   0.7911
+exp_c/max_fusion/fold_1               0.3292   0.1984   0.9671   0.1569
+exp_c/max_fusion/fold_2               0.7809   0.7156   0.8594   0.7210
+===========================================================================
+
+Saved → ./results/all_results.json

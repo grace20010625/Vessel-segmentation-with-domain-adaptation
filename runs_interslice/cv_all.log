@@ -1,0 +1,618 @@
+nohup: ignoring input
+
+libgomp: Invalid value for environment variable OMP_NUM_THREADS
+
+============================================================
+Fold 0/5  |  device: cuda
+============================================================
+Fold 0/5: 35 train volumes, 9 val volumes
+  Train samples: 1380,  Val samples: 355
+Model: InterSliceUNet  in_ch=3  base_ch=64  params=35,581,185
+Epoch   1/100  train_loss=0.6981  val_loss=0.6168  dice=0.7727  iou=0.6364  lr=1.00e-04  t=46.3s
+  ✓ Best model saved  (dice=0.7727)
+Epoch   2/100  train_loss=0.5726  val_loss=0.5563  dice=0.6845  iou=0.5314  lr=9.99e-05  t=44.1s
+Epoch   3/100  train_loss=0.5350  val_loss=0.5378  dice=0.8252  iou=0.7038  lr=9.98e-05  t=44.1s
+  ✓ Best model saved  (dice=0.8252)
+Epoch   4/100  train_loss=0.5117  val_loss=0.4812  dice=0.8295  iou=0.7116  lr=9.96e-05  t=44.1s
+  ✓ Best model saved  (dice=0.8295)
+Epoch   5/100  train_loss=0.4927  val_loss=0.4685  dice=0.8192  iou=0.6961  lr=9.94e-05  t=44.0s
+Epoch   6/100  train_loss=0.4742  val_loss=0.4380  dice=0.8294  iou=0.7120  lr=9.91e-05  t=43.9s
+Epoch   7/100  train_loss=0.4566  val_loss=0.4483  dice=0.8511  iou=0.7422  lr=9.88e-05  t=44.0s
+  ✓ Best model saved  (dice=0.8511)
+Epoch   8/100  train_loss=0.4403  val_loss=0.4182  dice=0.8240  iou=0.7031  lr=9.84e-05  t=44.0s
+Epoch   9/100  train_loss=0.4237  val_loss=0.4021  dice=0.8297  iou=0.7110  lr=9.80e-05  t=44.1s
+Epoch  10/100  train_loss=0.4092  val_loss=0.3989  dice=0.8151  iou=0.6919  lr=9.76e-05  t=44.1s
+Epoch  11/100  train_loss=0.3955  val_loss=0.3785  dice=0.8238  iou=0.7043  lr=9.71e-05  t=44.0s
+Epoch  12/100  train_loss=0.3795  val_loss=0.3699  dice=0.8255  iou=0.7059  lr=9.65e-05  t=44.0s
+Epoch  13/100  train_loss=0.3680  val_loss=0.3613  dice=0.8604  iou=0.7563  lr=9.59e-05  t=44.1s
+  ✓ Best model saved  (dice=0.8604)
+Epoch  14/100  train_loss=0.3575  val_loss=0.3696  dice=0.8549  iou=0.7472  lr=9.53e-05  t=44.1s
+Epoch  15/100  train_loss=0.3444  val_loss=0.3299  dice=0.8552  iou=0.7486  lr=9.46e-05  t=44.4s
+Epoch  16/100  train_loss=0.3328  val_loss=0.3359  dice=0.8471  iou=0.7368  lr=9.39e-05  t=44.3s
+Epoch  17/100  train_loss=0.3206  val_loss=0.3256  dice=0.8528  iou=0.7458  lr=9.31e-05  t=44.4s
+Epoch  18/100  train_loss=0.3089  val_loss=0.3253  dice=0.8448  iou=0.7338  lr=9.23e-05  t=44.5s
+Epoch  19/100  train_loss=0.2998  val_loss=0.3096  dice=0.8517  iou=0.7439  lr=9.14e-05  t=44.4s
+Epoch  20/100  train_loss=0.2896  val_loss=0.3298  dice=0.8604  iou=0.7558  lr=9.05e-05  t=44.2s
+  ✓ Best model saved  (dice=0.8604)
+Epoch  21/100  train_loss=0.2801  val_loss=0.3260  dice=0.8498  iou=0.7411  lr=8.96e-05  t=44.8s
+Epoch  22/100  train_loss=0.2761  val_loss=0.2951  dice=0.8360  iou=0.7211  lr=8.86e-05  t=44.6s
+Epoch  23/100  train_loss=0.2715  val_loss=0.2882  dice=0.8539  iou=0.7467  lr=8.76e-05  t=44.7s
+Epoch  24/100  train_loss=0.2615  val_loss=0.3101  dice=0.8491  iou=0.7398  lr=8.66e-05  t=44.7s
+Epoch  25/100  train_loss=0.2541  val_loss=0.2964  dice=0.8504  iou=0.7420  lr=8.55e-05  t=44.8s
+Epoch  26/100  train_loss=0.2488  val_loss=0.2889  dice=0.8502  iou=0.7412  lr=8.44e-05  t=44.7s
+Epoch  27/100  train_loss=0.2411  val_loss=0.3067  dice=0.8526  iou=0.7447  lr=8.32e-05  t=44.8s
+Epoch  28/100  train_loss=0.2352  val_loss=0.2753  dice=0.8461  iou=0.7362  lr=8.21e-05  t=44.7s
+Epoch  29/100  train_loss=0.2298  val_loss=0.3166  dice=0.8483  iou=0.7383  lr=8.08e-05  t=44.6s
+Epoch  30/100  train_loss=0.2260  val_loss=0.2928  dice=0.8525  iou=0.7447  lr=7.96e-05  t=44.7s
+Epoch  31/100  train_loss=0.2231  val_loss=0.2946  dice=0.8583  iou=0.7529  lr=7.83e-05  t=44.6s
+Epoch  32/100  train_loss=0.2212  val_loss=0.2955  dice=0.8522  iou=0.7439  lr=7.70e-05  t=44.6s
+Epoch  33/100  train_loss=0.2161  val_loss=0.2886  dice=0.8595  iou=0.7547  lr=7.57e-05  t=44.3s
+Epoch  34/100  train_loss=0.2127  val_loss=0.2737  dice=0.8627  iou=0.7597  lr=7.43e-05  t=44.4s
+  ✓ Best model saved  (dice=0.8627)
+Epoch  35/100  train_loss=0.2100  val_loss=0.3074  dice=0.8496  iou=0.7399  lr=7.30e-05  t=44.2s
+Epoch  36/100  train_loss=0.2104  val_loss=0.2756  dice=0.8533  iou=0.7458  lr=7.16e-05  t=44.3s
+Epoch  37/100  train_loss=0.2050  val_loss=0.2976  dice=0.8549  iou=0.7476  lr=7.02e-05  t=44.3s
+Epoch  38/100  train_loss=0.2045  val_loss=0.3064  dice=0.8596  iou=0.7546  lr=6.87e-05  t=44.2s
+Epoch  39/100  train_loss=0.2027  val_loss=0.2727  dice=0.8580  iou=0.7527  lr=6.73e-05  t=44.1s
+Epoch  40/100  train_loss=0.1979  val_loss=0.2849  dice=0.8561  iou=0.7497  lr=6.58e-05  t=44.2s
+Epoch  41/100  train_loss=0.1968  val_loss=0.2999  dice=0.8513  iou=0.7422  lr=6.43e-05  t=44.2s
+Epoch  42/100  train_loss=0.1952  val_loss=0.2674  dice=0.8473  iou=0.7373  lr=6.28e-05  t=44.0s
+Epoch  43/100  train_loss=0.1930  val_loss=0.2890  dice=0.8523  iou=0.7437  lr=6.13e-05  t=44.1s
+Epoch  44/100  train_loss=0.1932  val_loss=0.2928  dice=0.8564  iou=0.7499  lr=5.98e-05  t=44.2s
+Epoch  45/100  train_loss=0.1921  val_loss=0.2755  dice=0.8552  iou=0.7482  lr=5.82e-05  t=44.3s
+Epoch  46/100  train_loss=0.1893  val_loss=0.3002  dice=0.8528  iou=0.7444  lr=5.67e-05  t=44.1s
+Epoch  47/100  train_loss=0.1875  val_loss=0.2794  dice=0.8470  iou=0.7361  lr=5.52e-05  t=44.1s
+Epoch  48/100  train_loss=0.1862  val_loss=0.2759  dice=0.8560  iou=0.7497  lr=5.36e-05  t=44.0s
+Epoch  49/100  train_loss=0.1887  val_loss=0.3182  dice=0.8533  iou=0.7451  lr=5.21e-05  t=44.2s
+Epoch  50/100  train_loss=0.1854  val_loss=0.2960  dice=0.8563  iou=0.7500  lr=5.05e-05  t=44.1s
+Epoch  51/100  train_loss=0.1837  val_loss=0.3406  dice=0.8407  iou=0.7264  lr=4.89e-05  t=44.2s
+Epoch  52/100  train_loss=0.1823  val_loss=0.2960  dice=0.8520  iou=0.7432  lr=4.74e-05  t=44.2s
+Epoch  53/100  train_loss=0.1842  val_loss=0.2855  dice=0.8568  iou=0.7503  lr=4.58e-05  t=44.2s
+Epoch  54/100  train_loss=0.1806  val_loss=0.3039  dice=0.8518  iou=0.7430  lr=4.43e-05  t=44.1s
+Epoch  55/100  train_loss=0.1798  val_loss=0.3131  dice=0.8504  iou=0.7411  lr=4.28e-05  t=44.0s
+Epoch  56/100  train_loss=0.1791  val_loss=0.3043  dice=0.8468  iou=0.7352  lr=4.12e-05  t=44.1s
+Epoch  57/100  train_loss=0.1784  val_loss=0.3231  dice=0.8504  iou=0.7408  lr=3.97e-05  t=44.1s
+Epoch  58/100  train_loss=0.1773  val_loss=0.3079  dice=0.8518  iou=0.7428  lr=3.82e-05  t=44.1s
+Epoch  59/100  train_loss=0.1781  val_loss=0.3094  dice=0.8539  iou=0.7463  lr=3.67e-05  t=44.0s
+Epoch  60/100  train_loss=0.1760  val_loss=0.3050  dice=0.8493  iou=0.7389  lr=3.52e-05  t=44.1s
+Epoch  61/100  train_loss=0.1756  val_loss=0.3011  dice=0.8534  iou=0.7451  lr=3.37e-05  t=43.9s
+Epoch  62/100  train_loss=0.1751  val_loss=0.3175  dice=0.8473  iou=0.7362  lr=3.23e-05  t=43.9s
+Epoch  63/100  train_loss=0.1753  val_loss=0.2995  dice=0.8527  iou=0.7441  lr=3.08e-05  t=44.1s
+Epoch  64/100  train_loss=0.1744  val_loss=0.3191  dice=0.8477  iou=0.7368  lr=2.94e-05  t=44.2s
+Epoch  65/100  train_loss=0.1736  val_loss=0.2992  dice=0.8488  iou=0.7385  lr=2.80e-05  t=44.1s
+Epoch  66/100  train_loss=0.1742  val_loss=0.3188  dice=0.8487  iou=0.7384  lr=2.67e-05  t=44.2s
+Epoch  67/100  train_loss=0.1737  val_loss=0.2973  dice=0.8530  iou=0.7447  lr=2.53e-05  t=44.1s
+Epoch  68/100  train_loss=0.1731  val_loss=0.2934  dice=0.8504  iou=0.7409  lr=2.40e-05  t=44.1s
+Epoch  69/100  train_loss=0.1723  val_loss=0.3230  dice=0.8488  iou=0.7382  lr=2.27e-05  t=44.1s
+Epoch  70/100  train_loss=0.1729  val_loss=0.3218  dice=0.8491  iou=0.7390  lr=2.14e-05  t=44.0s
+Epoch  71/100  train_loss=0.1725  val_loss=0.3233  dice=0.8473  iou=0.7362  lr=2.02e-05  t=44.2s
+Epoch  72/100  train_loss=0.1721  val_loss=0.3166  dice=0.8483  iou=0.7381  lr=1.89e-05  t=44.1s
+Epoch  73/100  train_loss=0.1712  val_loss=0.3133  dice=0.8492  iou=0.7392  lr=1.78e-05  t=44.2s
+Epoch  74/100  train_loss=0.1701  val_loss=0.3221  dice=0.8454  iou=0.7336  lr=1.66e-05  t=44.3s
+Epoch  75/100  train_loss=0.1698  val_loss=0.3129  dice=0.8471  iou=0.7357  lr=1.55e-05  t=44.2s
+Epoch  76/100  train_loss=0.1712  val_loss=0.3224  dice=0.8488  iou=0.7386  lr=1.44e-05  t=44.2s
+Epoch  77/100  train_loss=0.1702  val_loss=0.2994  dice=0.8554  iou=0.7482  lr=1.34e-05  t=44.1s
+Epoch  78/100  train_loss=0.1698  val_loss=0.3202  dice=0.8477  iou=0.7369  lr=1.24e-05  t=44.1s
+Epoch  79/100  train_loss=0.1694  val_loss=0.3193  dice=0.8486  iou=0.7383  lr=1.14e-05  t=44.1s
+Epoch  80/100  train_loss=0.1695  val_loss=0.3233  dice=0.8451  iou=0.7329  lr=1.05e-05  t=44.1s
+Epoch  81/100  train_loss=0.1698  val_loss=0.3128  dice=0.8497  iou=0.7400  lr=9.56e-06  t=44.2s
+Epoch  82/100  train_loss=0.1693  val_loss=0.3272  dice=0.8457  iou=0.7341  lr=8.71e-06  t=44.2s
+Epoch  83/100  train_loss=0.1693  val_loss=0.3387  dice=0.8445  iou=0.7321  lr=7.89e-06  t=44.2s
+Epoch  84/100  train_loss=0.1690  val_loss=0.3229  dice=0.8454  iou=0.7333  lr=7.12e-06  t=44.1s
+Epoch  85/100  train_loss=0.1688  val_loss=0.3199  dice=0.8476  iou=0.7366  lr=6.40e-06  t=44.1s
+Epoch  86/100  train_loss=0.1689  val_loss=0.3219  dice=0.8462  iou=0.7347  lr=5.71e-06  t=44.2s
+Epoch  87/100  train_loss=0.1679  val_loss=0.3280  dice=0.8447  iou=0.7322  lr=5.07e-06  t=44.1s
+Epoch  88/100  train_loss=0.1692  val_loss=0.3307  dice=0.8466  iou=0.7350  lr=4.48e-06  t=44.2s
+Epoch  89/100  train_loss=0.1673  val_loss=0.3168  dice=0.8507  iou=0.7413  lr=3.93e-06  t=44.2s
+Epoch  90/100  train_loss=0.1676  val_loss=0.3276  dice=0.8479  iou=0.7370  lr=3.42e-06  t=44.1s
+Epoch  91/100  train_loss=0.1683  val_loss=0.3274  dice=0.8452  iou=0.7331  lr=2.97e-06  t=44.1s
+Epoch  92/100  train_loss=0.1683  val_loss=0.3455  dice=0.8399  iou=0.7254  lr=2.56e-06  t=44.2s
+Epoch  93/100  train_loss=0.1679  val_loss=0.3349  dice=0.8418  iou=0.7282  lr=2.19e-06  t=44.2s
+Epoch  94/100  train_loss=0.1675  val_loss=0.3398  dice=0.8429  iou=0.7299  lr=1.88e-06  t=44.2s
+Epoch  95/100  train_loss=0.1677  val_loss=0.3358  dice=0.8440  iou=0.7316  lr=1.61e-06  t=44.2s
+Epoch  96/100  train_loss=0.1678  val_loss=0.3240  dice=0.8465  iou=0.7350  lr=1.39e-06  t=44.2s
+Epoch  97/100  train_loss=0.1674  val_loss=0.3301  dice=0.8455  iou=0.7337  lr=1.22e-06  t=44.2s
+Epoch  98/100  train_loss=0.1669  val_loss=0.3316  dice=0.8443  iou=0.7318  lr=1.10e-06  t=44.2s
+Epoch  99/100  train_loss=0.1674  val_loss=0.3245  dice=0.8443  iou=0.7320  lr=1.02e-06  t=44.2s
+Epoch 100/100  train_loss=0.1672  val_loss=0.3252  dice=0.8469  iou=0.7357  lr=1.00e-06  t=44.2s
+
+Fold 0 — Final evaluation (with HD95)...
+[Fold 0] Dice=0.8469  IoU=0.7357  HD95=2.89  Prec=0.8973  Rec=0.8122
+
+Fold 0 done. Best dice: 0.8627
+
+============================================================
+Fold 1/5  |  device: cuda
+============================================================
+Fold 1/5: 35 train volumes, 9 val volumes
+  Train samples: 1323,  Val samples: 412
+Model: InterSliceUNet  in_ch=3  base_ch=64  params=35,581,185
+Epoch   1/100  train_loss=0.7115  val_loss=0.6892  dice=0.5735  iou=0.4213  lr=1.00e-04  t=44.9s
+  ✓ Best model saved  (dice=0.5735)
+Epoch   2/100  train_loss=0.5893  val_loss=0.6067  dice=0.8377  iou=0.7227  lr=9.99e-05  t=44.7s
+  ✓ Best model saved  (dice=0.8377)
+Epoch   3/100  train_loss=0.5505  val_loss=0.5222  dice=0.7251  iou=0.5793  lr=9.98e-05  t=44.4s
+Epoch   4/100  train_loss=0.5265  val_loss=0.5004  dice=0.8220  iou=0.7080  lr=9.96e-05  t=44.3s
+Epoch   5/100  train_loss=0.5066  val_loss=0.4827  dice=0.8444  iou=0.7370  lr=9.94e-05  t=44.3s
+  ✓ Best model saved  (dice=0.8444)
+Epoch   6/100  train_loss=0.4915  val_loss=0.4664  dice=0.8375  iou=0.7270  lr=9.91e-05  t=44.5s
+Epoch   7/100  train_loss=0.4748  val_loss=0.4392  dice=0.8542  iou=0.7512  lr=9.88e-05  t=44.4s
+  ✓ Best model saved  (dice=0.8542)
+Epoch   8/100  train_loss=0.4570  val_loss=0.4459  dice=0.8614  iou=0.7601  lr=9.84e-05  t=44.3s
+  ✓ Best model saved  (dice=0.8614)
+Epoch   9/100  train_loss=0.4450  val_loss=0.4165  dice=0.8321  iou=0.7250  lr=9.80e-05  t=44.4s
+Epoch  10/100  train_loss=0.4294  val_loss=0.4194  dice=0.8469  iou=0.7412  lr=9.76e-05  t=44.4s
+Epoch  11/100  train_loss=0.4151  val_loss=0.4043  dice=0.8430  iou=0.7365  lr=9.71e-05  t=44.6s
+Epoch  12/100  train_loss=0.4020  val_loss=0.3849  dice=0.8476  iou=0.7446  lr=9.65e-05  t=44.7s
+Epoch  13/100  train_loss=0.3899  val_loss=0.3745  dice=0.8547  iou=0.7524  lr=9.59e-05  t=44.6s
+Epoch  14/100  train_loss=0.3799  val_loss=0.3440  dice=0.8670  iou=0.7686  lr=9.53e-05  t=44.6s
+  ✓ Best model saved  (dice=0.8670)
+Epoch  15/100  train_loss=0.3684  val_loss=0.3823  dice=0.8519  iou=0.7468  lr=9.46e-05  t=44.8s
+Epoch  16/100  train_loss=0.3600  val_loss=0.3295  dice=0.8624  iou=0.7650  lr=9.39e-05  t=44.7s
+Epoch  17/100  train_loss=0.3467  val_loss=0.3230  dice=0.8580  iou=0.7581  lr=9.31e-05  t=44.6s
+Epoch  18/100  train_loss=0.3332  val_loss=0.3201  dice=0.8564  iou=0.7556  lr=9.23e-05  t=44.6s
+Epoch  19/100  train_loss=0.3272  val_loss=0.3000  dice=0.8635  iou=0.7655  lr=9.14e-05  t=44.5s
+Epoch  20/100  train_loss=0.3168  val_loss=0.3203  dice=0.8559  iou=0.7520  lr=9.05e-05  t=44.6s
+Epoch  21/100  train_loss=0.3087  val_loss=0.3094  dice=0.8523  iou=0.7493  lr=8.96e-05  t=44.4s
+Epoch  22/100  train_loss=0.3019  val_loss=0.3224  dice=0.8445  iou=0.7351  lr=8.86e-05  t=44.6s
+Epoch  23/100  train_loss=0.2911  val_loss=0.3205  dice=0.8471  iou=0.7401  lr=8.76e-05  t=44.4s
+Epoch  24/100  train_loss=0.2865  val_loss=0.3430  dice=0.8323  iou=0.7211  lr=8.66e-05  t=44.4s
+Epoch  25/100  train_loss=0.2762  val_loss=0.2862  dice=0.8572  iou=0.7553  lr=8.55e-05  t=44.4s
+Epoch  26/100  train_loss=0.2700  val_loss=0.2983  dice=0.8514  iou=0.7465  lr=8.44e-05  t=44.5s
+Epoch  27/100  train_loss=0.2637  val_loss=0.2752  dice=0.8627  iou=0.7631  lr=8.32e-05  t=44.4s
+Epoch  28/100  train_loss=0.2586  val_loss=0.2643  dice=0.8497  iou=0.7462  lr=8.21e-05  t=44.5s
+Epoch  29/100  train_loss=0.2519  val_loss=0.2893  dice=0.8585  iou=0.7559  lr=8.08e-05  t=44.6s
+Epoch  30/100  train_loss=0.2512  val_loss=0.2684  dice=0.8488  iou=0.7447  lr=7.96e-05  t=44.6s
+Epoch  31/100  train_loss=0.2454  val_loss=0.2609  dice=0.8526  iou=0.7487  lr=7.83e-05  t=44.7s
+Epoch  32/100  train_loss=0.2389  val_loss=0.2517  dice=0.8577  iou=0.7567  lr=7.70e-05  t=44.7s
+Epoch  33/100  train_loss=0.2349  val_loss=0.2552  dice=0.8469  iou=0.7405  lr=7.57e-05  t=44.6s
+Epoch  34/100  train_loss=0.2344  val_loss=0.2812  dice=0.8502  iou=0.7437  lr=7.43e-05  t=44.6s
+Epoch  35/100  train_loss=0.2268  val_loss=0.2614  dice=0.8570  iou=0.7567  lr=7.30e-05  t=44.6s
+Epoch  36/100  train_loss=0.2257  val_loss=0.2440  dice=0.8565  iou=0.7565  lr=7.16e-05  t=44.7s
+Epoch  37/100  train_loss=0.2213  val_loss=0.2627  dice=0.8490  iou=0.7467  lr=7.02e-05  t=44.6s
+Epoch  38/100  train_loss=0.2189  val_loss=0.2754  dice=0.8380  iou=0.7284  lr=6.87e-05  t=44.7s
+Epoch  39/100  train_loss=0.2154  val_loss=0.2558  dice=0.8536  iou=0.7505  lr=6.73e-05  t=44.7s
+Epoch  40/100  train_loss=0.2143  val_loss=0.2469  dice=0.8568  iou=0.7549  lr=6.58e-05  t=44.6s
+Epoch  41/100  train_loss=0.2130  val_loss=0.2657  dice=0.8462  iou=0.7387  lr=6.43e-05  t=44.3s
+Epoch  42/100  train_loss=0.2103  val_loss=0.2474  dice=0.8588  iou=0.7589  lr=6.28e-05  t=44.4s
+Epoch  43/100  train_loss=0.2081  val_loss=0.2517  dice=0.8516  iou=0.7485  lr=6.13e-05  t=44.5s
+Epoch  44/100  train_loss=0.2090  val_loss=0.2649  dice=0.8475  iou=0.7398  lr=5.98e-05  t=44.4s
+Epoch  45/100  train_loss=0.2032  val_loss=0.2491  dice=0.8496  iou=0.7458  lr=5.82e-05  t=44.5s
+Epoch  46/100  train_loss=0.2069  val_loss=0.2394  dice=0.8544  iou=0.7521  lr=5.67e-05  t=44.5s
+Epoch  47/100  train_loss=0.2014  val_loss=0.2577  dice=0.8456  iou=0.7389  lr=5.52e-05  t=44.6s
+Epoch  48/100  train_loss=0.2005  val_loss=0.2479  dice=0.8540  iou=0.7507  lr=5.36e-05  t=44.5s
+Epoch  49/100  train_loss=0.1991  val_loss=0.2617  dice=0.8506  iou=0.7436  lr=5.21e-05  t=44.4s
+Epoch  50/100  train_loss=0.1972  val_loss=0.2649  dice=0.8489  iou=0.7426  lr=5.05e-05  t=44.4s
+Epoch  51/100  train_loss=0.1965  val_loss=0.2807  dice=0.8460  iou=0.7368  lr=4.89e-05  t=44.7s
+Epoch  52/100  train_loss=0.1948  val_loss=0.2675  dice=0.8520  iou=0.7456  lr=4.74e-05  t=44.6s
+Epoch  53/100  train_loss=0.1944  val_loss=0.2418  dice=0.8548  iou=0.7529  lr=4.58e-05  t=44.7s
+Epoch  54/100  train_loss=0.1935  val_loss=0.2581  dice=0.8499  iou=0.7441  lr=4.43e-05  t=44.6s
+Epoch  55/100  train_loss=0.1931  val_loss=0.2471  dice=0.8488  iou=0.7436  lr=4.28e-05  t=44.6s
+Epoch  56/100  train_loss=0.1918  val_loss=0.2543  dice=0.8542  iou=0.7499  lr=4.12e-05  t=44.6s
+Epoch  57/100  train_loss=0.1905  val_loss=0.2625  dice=0.8410  iou=0.7317  lr=3.97e-05  t=44.6s
+Epoch  58/100  train_loss=0.1898  val_loss=0.2547  dice=0.8543  iou=0.7502  lr=3.82e-05  t=44.5s
+Epoch  59/100  train_loss=0.1895  val_loss=0.2531  dice=0.8561  iou=0.7518  lr=3.67e-05  t=44.6s
+Epoch  60/100  train_loss=0.1881  val_loss=0.2528  dice=0.8468  iou=0.7405  lr=3.52e-05  t=44.6s
+Epoch  61/100  train_loss=0.1874  val_loss=0.2636  dice=0.8468  iou=0.7385  lr=3.37e-05  t=44.7s
+Epoch  62/100  train_loss=0.1871  val_loss=0.2467  dice=0.8524  iou=0.7479  lr=3.23e-05  t=44.5s
+Epoch  63/100  train_loss=0.1872  val_loss=0.2615  dice=0.8520  iou=0.7467  lr=3.08e-05  t=44.5s
+Epoch  64/100  train_loss=0.1865  val_loss=0.2536  dice=0.8435  iou=0.7359  lr=2.94e-05  t=44.6s
+Epoch  65/100  train_loss=0.1860  val_loss=0.2752  dice=0.8382  iou=0.7257  lr=2.80e-05  t=44.5s
+Epoch  66/100  train_loss=0.1847  val_loss=0.2479  dice=0.8542  iou=0.7506  lr=2.67e-05  t=44.5s
+Epoch  67/100  train_loss=0.1845  val_loss=0.2682  dice=0.8492  iou=0.7416  lr=2.53e-05  t=44.5s
+Epoch  68/100  train_loss=0.1842  val_loss=0.2477  dice=0.8511  iou=0.7459  lr=2.40e-05  t=44.4s
+Epoch  69/100  train_loss=0.1839  val_loss=0.2613  dice=0.8466  iou=0.7386  lr=2.27e-05  t=44.5s
+Epoch  70/100  train_loss=0.1843  val_loss=0.2606  dice=0.8497  iou=0.7429  lr=2.14e-05  t=44.6s
+Epoch  71/100  train_loss=0.1829  val_loss=0.2574  dice=0.8440  iou=0.7360  lr=2.02e-05  t=44.8s
+Epoch  72/100  train_loss=0.1827  val_loss=0.2541  dice=0.8491  iou=0.7428  lr=1.89e-05  t=44.8s
+Epoch  73/100  train_loss=0.1828  val_loss=0.2597  dice=0.8446  iou=0.7361  lr=1.78e-05  t=44.6s
+Epoch  74/100  train_loss=0.1821  val_loss=0.2544  dice=0.8456  iou=0.7379  lr=1.66e-05  t=44.7s
+Epoch  75/100  train_loss=0.1825  val_loss=0.2542  dice=0.8525  iou=0.7471  lr=1.55e-05  t=44.8s
+Epoch  76/100  train_loss=0.1815  val_loss=0.2560  dice=0.8497  iou=0.7433  lr=1.44e-05  t=44.7s
+Epoch  77/100  train_loss=0.1812  val_loss=0.2557  dice=0.8438  iou=0.7357  lr=1.34e-05  t=44.8s
+Epoch  78/100  train_loss=0.1810  val_loss=0.2565  dice=0.8473  iou=0.7400  lr=1.24e-05  t=44.7s
+Epoch  79/100  train_loss=0.1804  val_loss=0.2595  dice=0.8426  iou=0.7332  lr=1.14e-05  t=44.8s
+Epoch  80/100  train_loss=0.1806  val_loss=0.2408  dice=0.8514  iou=0.7468  lr=1.05e-05  t=44.7s
+Epoch  81/100  train_loss=0.1794  val_loss=0.2497  dice=0.8501  iou=0.7439  lr=9.56e-06  t=44.5s
+Epoch  82/100  train_loss=0.1799  val_loss=0.2454  dice=0.8510  iou=0.7458  lr=8.71e-06  t=44.5s
+Epoch  83/100  train_loss=0.1797  val_loss=0.2562  dice=0.8504  iou=0.7441  lr=7.89e-06  t=44.4s
+Epoch  84/100  train_loss=0.1794  val_loss=0.2504  dice=0.8527  iou=0.7478  lr=7.12e-06  t=44.5s
+Epoch  85/100  train_loss=0.1794  val_loss=0.2578  dice=0.8476  iou=0.7403  lr=6.40e-06  t=44.4s
+Epoch  86/100  train_loss=0.1811  val_loss=0.2450  dice=0.8506  iou=0.7454  lr=5.71e-06  t=44.5s
+Epoch  87/100  train_loss=0.1797  val_loss=0.2532  dice=0.8482  iou=0.7415  lr=5.07e-06  t=44.5s
+Epoch  88/100  train_loss=0.1800  val_loss=0.2586  dice=0.8463  iou=0.7383  lr=4.48e-06  t=44.5s
+Epoch  89/100  train_loss=0.1789  val_loss=0.2478  dice=0.8501  iou=0.7444  lr=3.93e-06  t=44.4s
+Epoch  90/100  train_loss=0.1792  val_loss=0.2578  dice=0.8495  iou=0.7426  lr=3.42e-06  t=44.4s
+Epoch  91/100  train_loss=0.1794  val_loss=0.2570  dice=0.8484  iou=0.7412  lr=2.97e-06  t=44.7s
+Epoch  92/100  train_loss=0.1789  val_loss=0.2552  dice=0.8484  iou=0.7412  lr=2.56e-06  t=44.8s
+Epoch  93/100  train_loss=0.1798  val_loss=0.2504  dice=0.8485  iou=0.7421  lr=2.19e-06  t=44.8s
+Epoch  94/100  train_loss=0.1792  val_loss=0.2555  dice=0.8489  iou=0.7419  lr=1.88e-06  t=44.8s
+Epoch  95/100  train_loss=0.1792  val_loss=0.2533  dice=0.8506  iou=0.7444  lr=1.61e-06  t=44.7s
+Epoch  96/100  train_loss=0.1795  val_loss=0.2592  dice=0.8493  iou=0.7420  lr=1.39e-06  t=44.7s
+Epoch  97/100  train_loss=0.1790  val_loss=0.2444  dice=0.8471  iou=0.7411  lr=1.22e-06  t=44.7s
+Epoch  98/100  train_loss=0.1787  val_loss=0.2580  dice=0.8487  iou=0.7415  lr=1.10e-06  t=44.7s
+Epoch  99/100  train_loss=0.1785  val_loss=0.2543  dice=0.8483  iou=0.7412  lr=1.02e-06  t=44.7s
+Epoch 100/100  train_loss=0.1780  val_loss=0.2535  dice=0.8494  iou=0.7427  lr=1.00e-06  t=44.8s
+
+Fold 1 — Final evaluation (with HD95)...
+[Fold 1] Dice=0.8494  IoU=0.7427  HD95=3.12  Prec=0.8848  Rec=0.8401
+
+Fold 1 done. Best dice: 0.8670
+
+============================================================
+Fold 2/5  |  device: cuda
+============================================================
+Fold 2/5: 35 train volumes, 9 val volumes
+  Train samples: 1334,  Val samples: 401
+Model: InterSliceUNet  in_ch=3  base_ch=64  params=35,581,185
+Epoch   1/100  train_loss=0.7496  val_loss=0.7052  dice=0.4343  iou=0.2849  lr=1.00e-04  t=44.4s
+  ✓ Best model saved  (dice=0.4343)
+Epoch   2/100  train_loss=0.6231  val_loss=0.6462  dice=0.6608  iou=0.4994  lr=9.99e-05  t=44.5s
+  ✓ Best model saved  (dice=0.6608)
+Epoch   3/100  train_loss=0.5813  val_loss=0.6034  dice=0.6472  iou=0.4850  lr=9.98e-05  t=44.1s
+Epoch   4/100  train_loss=0.5559  val_loss=0.6049  dice=0.6329  iou=0.4707  lr=9.96e-05  t=44.0s
+Epoch   5/100  train_loss=0.5345  val_loss=0.5782  dice=0.6987  iou=0.5417  lr=9.94e-05  t=44.0s
+  ✓ Best model saved  (dice=0.6987)
+Epoch   6/100  train_loss=0.5184  val_loss=0.5638  dice=0.6523  iou=0.4965  lr=9.91e-05  t=44.1s
+Epoch   7/100  train_loss=0.5017  val_loss=0.5513  dice=0.7082  iou=0.5529  lr=9.88e-05  t=44.1s
+  ✓ Best model saved  (dice=0.7082)
+Epoch   8/100  train_loss=0.4873  val_loss=0.5389  dice=0.7253  iou=0.5724  lr=9.84e-05  t=44.1s
+  ✓ Best model saved  (dice=0.7253)
+Epoch   9/100  train_loss=0.4743  val_loss=0.5312  dice=0.6980  iou=0.5397  lr=9.80e-05  t=44.1s
+Epoch  10/100  train_loss=0.4611  val_loss=0.5264  dice=0.7089  iou=0.5522  lr=9.76e-05  t=44.1s
+Epoch  11/100  train_loss=0.4524  val_loss=0.4951  dice=0.7399  iou=0.5898  lr=9.71e-05  t=44.3s
+  ✓ Best model saved  (dice=0.7399)
+Epoch  12/100  train_loss=0.4385  val_loss=0.5038  dice=0.6957  iou=0.5386  lr=9.65e-05  t=44.2s
+Epoch  13/100  train_loss=0.4265  val_loss=0.4742  dice=0.7596  iou=0.6157  lr=9.59e-05  t=44.1s
+  ✓ Best model saved  (dice=0.7596)
+Epoch  14/100  train_loss=0.4152  val_loss=0.4687  dice=0.7515  iou=0.6059  lr=9.53e-05  t=44.0s
+Epoch  15/100  train_loss=0.4031  val_loss=0.4729  dice=0.7545  iou=0.6095  lr=9.46e-05  t=44.1s
+Epoch  16/100  train_loss=0.3917  val_loss=0.4535  dice=0.7361  iou=0.5859  lr=9.39e-05  t=44.0s
+Epoch  17/100  train_loss=0.3827  val_loss=0.4526  dice=0.6853  iou=0.5303  lr=9.31e-05  t=44.2s
+Epoch  18/100  train_loss=0.3709  val_loss=0.4395  dice=0.7644  iou=0.6219  lr=9.23e-05  t=44.1s
+  ✓ Best model saved  (dice=0.7644)
+Epoch  19/100  train_loss=0.3620  val_loss=0.4228  dice=0.7631  iou=0.6205  lr=9.14e-05  t=44.2s
+Epoch  20/100  train_loss=0.3520  val_loss=0.4076  dice=0.7467  iou=0.5989  lr=9.05e-05  t=44.2s
+Epoch  21/100  train_loss=0.3419  val_loss=0.4003  dice=0.7770  iou=0.6385  lr=8.96e-05  t=44.3s
+  ✓ Best model saved  (dice=0.7770)
+Epoch  22/100  train_loss=0.3343  val_loss=0.4004  dice=0.7352  iou=0.5837  lr=8.86e-05  t=44.3s
+Epoch  23/100  train_loss=0.3241  val_loss=0.3806  dice=0.7684  iou=0.6266  lr=8.76e-05  t=44.3s
+Epoch  24/100  train_loss=0.3176  val_loss=0.3782  dice=0.7535  iou=0.6074  lr=8.66e-05  t=44.3s
+Epoch  25/100  train_loss=0.3087  val_loss=0.3696  dice=0.7863  iou=0.6503  lr=8.55e-05  t=44.3s
+  ✓ Best model saved  (dice=0.7863)
+Epoch  26/100  train_loss=0.3014  val_loss=0.3626  dice=0.7649  iou=0.6220  lr=8.44e-05  t=44.3s
+Epoch  27/100  train_loss=0.2939  val_loss=0.3465  dice=0.7802  iou=0.6423  lr=8.32e-05  t=44.4s
+Epoch  28/100  train_loss=0.2872  val_loss=0.3328  dice=0.7909  iou=0.6566  lr=8.21e-05  t=44.3s
+  ✓ Best model saved  (dice=0.7909)
+Epoch  29/100  train_loss=0.2809  val_loss=0.3391  dice=0.7752  iou=0.6355  lr=8.08e-05  t=44.3s
+Epoch  30/100  train_loss=0.2739  val_loss=0.3391  dice=0.7666  iou=0.6245  lr=7.96e-05  t=44.3s
+Epoch  31/100  train_loss=0.2685  val_loss=0.3297  dice=0.7648  iou=0.6222  lr=7.83e-05  t=44.2s
+Epoch  32/100  train_loss=0.2630  val_loss=0.3147  dice=0.8027  iou=0.6727  lr=7.70e-05  t=44.3s
+  ✓ Best model saved  (dice=0.8027)
+Epoch  33/100  train_loss=0.2583  val_loss=0.3277  dice=0.7530  iou=0.6065  lr=7.57e-05  t=44.0s
+Epoch  34/100  train_loss=0.2531  val_loss=0.3053  dice=0.7945  iou=0.6618  lr=7.43e-05  t=44.1s
+Epoch  35/100  train_loss=0.2477  val_loss=0.3060  dice=0.7843  iou=0.6478  lr=7.30e-05  t=44.0s
+Epoch  36/100  train_loss=0.2432  val_loss=0.3090  dice=0.7744  iou=0.6348  lr=7.16e-05  t=44.0s
+Epoch  37/100  train_loss=0.2398  val_loss=0.2966  dice=0.7953  iou=0.6624  lr=7.02e-05  t=44.4s
+Epoch  38/100  train_loss=0.2354  val_loss=0.3000  dice=0.7727  iou=0.6320  lr=6.87e-05  t=44.0s
+Epoch  39/100  train_loss=0.2327  val_loss=0.2821  dice=0.8009  iou=0.6705  lr=6.73e-05  t=44.0s
+Epoch  40/100  train_loss=0.2279  val_loss=0.2961  dice=0.7832  iou=0.6463  lr=6.58e-05  t=44.2s
+Epoch  41/100  train_loss=0.2249  val_loss=0.2855  dice=0.7839  iou=0.6469  lr=6.43e-05  t=44.3s
+Epoch  42/100  train_loss=0.2220  val_loss=0.2918  dice=0.7856  iou=0.6490  lr=6.28e-05  t=44.3s
+Epoch  43/100  train_loss=0.2199  val_loss=0.2908  dice=0.7788  iou=0.6405  lr=6.13e-05  t=44.3s
+Epoch  44/100  train_loss=0.2184  val_loss=0.2908  dice=0.7738  iou=0.6340  lr=5.98e-05  t=44.5s
+Epoch  45/100  train_loss=0.2129  val_loss=0.2990  dice=0.7575  iou=0.6125  lr=5.82e-05  t=44.4s
+Epoch  46/100  train_loss=0.2106  val_loss=0.2812  dice=0.7976  iou=0.6659  lr=5.67e-05  t=44.5s
+Epoch  47/100  train_loss=0.2104  val_loss=0.2801  dice=0.7778  iou=0.6391  lr=5.52e-05  t=44.4s
+Epoch  48/100  train_loss=0.2078  val_loss=0.2874  dice=0.7806  iou=0.6425  lr=5.36e-05  t=44.4s
+Epoch  49/100  train_loss=0.2069  val_loss=0.2827  dice=0.7841  iou=0.6475  lr=5.21e-05  t=44.4s
+Epoch  50/100  train_loss=0.2045  val_loss=0.2794  dice=0.7756  iou=0.6361  lr=5.05e-05  t=44.4s
+Epoch  51/100  train_loss=0.2028  val_loss=0.2824  dice=0.7659  iou=0.6235  lr=4.89e-05  t=44.1s
+Epoch  52/100  train_loss=0.2020  val_loss=0.2842  dice=0.7647  iou=0.6220  lr=4.74e-05  t=44.1s
+Epoch  53/100  train_loss=0.2003  val_loss=0.2657  dice=0.7970  iou=0.6652  lr=4.58e-05  t=44.3s
+Epoch  54/100  train_loss=0.1985  val_loss=0.2747  dice=0.7958  iou=0.6633  lr=4.43e-05  t=44.2s
+Epoch  55/100  train_loss=0.1987  val_loss=0.2758  dice=0.7842  iou=0.6476  lr=4.28e-05  t=44.1s
+Epoch  56/100  train_loss=0.1961  val_loss=0.2737  dice=0.7940  iou=0.6609  lr=4.12e-05  t=44.2s
+Epoch  57/100  train_loss=0.1948  val_loss=0.2780  dice=0.7746  iou=0.6347  lr=3.97e-05  t=44.2s
+Epoch  58/100  train_loss=0.1921  val_loss=0.2729  dice=0.7865  iou=0.6505  lr=3.82e-05  t=44.2s
+Epoch  59/100  train_loss=0.1927  val_loss=0.2674  dice=0.7935  iou=0.6601  lr=3.67e-05  t=44.2s
+Epoch  60/100  train_loss=0.1914  val_loss=0.2793  dice=0.7673  iou=0.6253  lr=3.52e-05  t=44.1s
+Epoch  61/100  train_loss=0.1916  val_loss=0.2670  dice=0.7958  iou=0.6632  lr=3.37e-05  t=44.3s
+Epoch  62/100  train_loss=0.1904  val_loss=0.2699  dice=0.7922  iou=0.6581  lr=3.23e-05  t=44.2s
+Epoch  63/100  train_loss=0.1891  val_loss=0.2780  dice=0.7738  iou=0.6334  lr=3.08e-05  t=44.1s
+Epoch  64/100  train_loss=0.1873  val_loss=0.2607  dice=0.8004  iou=0.6696  lr=2.94e-05  t=44.4s
+Epoch  65/100  train_loss=0.1879  val_loss=0.2722  dice=0.7784  iou=0.6399  lr=2.80e-05  t=44.1s
+Epoch  66/100  train_loss=0.1880  val_loss=0.2797  dice=0.7753  iou=0.6355  lr=2.67e-05  t=44.1s
+Epoch  67/100  train_loss=0.1858  val_loss=0.2792  dice=0.7750  iou=0.6352  lr=2.53e-05  t=44.3s
+Epoch  68/100  train_loss=0.1850  val_loss=0.2728  dice=0.7774  iou=0.6384  lr=2.40e-05  t=44.3s
+Epoch  69/100  train_loss=0.1837  val_loss=0.2782  dice=0.7675  iou=0.6255  lr=2.27e-05  t=44.3s
+Epoch  70/100  train_loss=0.1842  val_loss=0.2777  dice=0.7773  iou=0.6382  lr=2.14e-05  t=44.4s
+Epoch  71/100  train_loss=0.1841  val_loss=0.2748  dice=0.7728  iou=0.6324  lr=2.02e-05  t=44.1s
+Epoch  72/100  train_loss=0.1813  val_loss=0.2739  dice=0.7751  iou=0.6355  lr=1.89e-05  t=44.2s
+Epoch  73/100  train_loss=0.1822  val_loss=0.2698  dice=0.7783  iou=0.6397  lr=1.78e-05  t=44.3s
+Epoch  74/100  train_loss=0.1817  val_loss=0.2635  dice=0.7925  iou=0.6588  lr=1.66e-05  t=44.2s
+Epoch  75/100  train_loss=0.1824  val_loss=0.2753  dice=0.7777  iou=0.6388  lr=1.55e-05  t=44.3s
+Epoch  76/100  train_loss=0.1805  val_loss=0.2700  dice=0.7845  iou=0.6477  lr=1.44e-05  t=44.2s
+Epoch  77/100  train_loss=0.1806  val_loss=0.2723  dice=0.7755  iou=0.6361  lr=1.34e-05  t=44.6s
+Epoch  78/100  train_loss=0.1802  val_loss=0.2692  dice=0.7796  iou=0.6414  lr=1.24e-05  t=44.1s
+Epoch  79/100  train_loss=0.1791  val_loss=0.2707  dice=0.7862  iou=0.6502  lr=1.14e-05  t=44.2s
+Epoch  80/100  train_loss=0.1797  val_loss=0.2748  dice=0.7804  iou=0.6424  lr=1.05e-05  t=44.3s
+Epoch  81/100  train_loss=0.1796  val_loss=0.2713  dice=0.7792  iou=0.6409  lr=9.56e-06  t=44.4s
+Epoch  82/100  train_loss=0.1794  val_loss=0.2747  dice=0.7783  iou=0.6397  lr=8.71e-06  t=44.1s
+Epoch  83/100  train_loss=0.1799  val_loss=0.2767  dice=0.7651  iou=0.6224  lr=7.89e-06  t=44.4s
+Epoch  84/100  train_loss=0.1795  val_loss=0.2740  dice=0.7754  iou=0.6359  lr=7.12e-06  t=44.1s
+Epoch  85/100  train_loss=0.1773  val_loss=0.2743  dice=0.7819  iou=0.6444  lr=6.40e-06  t=44.3s
+Epoch  86/100  train_loss=0.1781  val_loss=0.2701  dice=0.7859  iou=0.6498  lr=5.71e-06  t=44.2s
+Epoch  87/100  train_loss=0.1782  val_loss=0.2742  dice=0.7767  iou=0.6376  lr=5.07e-06  t=44.3s
+Epoch  88/100  train_loss=0.1781  val_loss=0.2737  dice=0.7779  iou=0.6392  lr=4.48e-06  t=44.2s
+Epoch  89/100  train_loss=0.1778  val_loss=0.2741  dice=0.7743  iou=0.6344  lr=3.93e-06  t=44.3s
+Epoch  90/100  train_loss=0.1777  val_loss=0.2743  dice=0.7773  iou=0.6384  lr=3.42e-06  t=44.2s
+Epoch  91/100  train_loss=0.1778  val_loss=0.2749  dice=0.7750  iou=0.6353  lr=2.97e-06  t=44.2s
+Epoch  92/100  train_loss=0.1777  val_loss=0.2740  dice=0.7784  iou=0.6398  lr=2.56e-06  t=44.2s
+Epoch  93/100  train_loss=0.1778  val_loss=0.2749  dice=0.7753  iou=0.6357  lr=2.19e-06  t=44.2s
+Epoch  94/100  train_loss=0.1773  val_loss=0.2725  dice=0.7853  iou=0.6490  lr=1.88e-06  t=44.2s
+Epoch  95/100  train_loss=0.1779  val_loss=0.2731  dice=0.7722  iou=0.6316  lr=1.61e-06  t=44.2s
+Epoch  96/100  train_loss=0.1768  val_loss=0.2713  dice=0.7823  iou=0.6449  lr=1.39e-06  t=44.2s
+Epoch  97/100  train_loss=0.1770  val_loss=0.2744  dice=0.7721  iou=0.6315  lr=1.22e-06  t=44.1s
+Epoch  98/100  train_loss=0.1779  val_loss=0.2724  dice=0.7780  iou=0.6392  lr=1.10e-06  t=44.2s
+Epoch  99/100  train_loss=0.1767  val_loss=0.2731  dice=0.7758  iou=0.6364  lr=1.02e-06  t=44.3s
+Epoch 100/100  train_loss=0.1759  val_loss=0.2749  dice=0.7795  iou=0.6411  lr=1.00e-06  t=44.2s
+
+Fold 2 — Final evaluation (with HD95)...
+[Fold 2] Dice=0.7795  IoU=0.6411  HD95=4.52  Prec=0.7071  Rec=0.8945
+
+Fold 2 done. Best dice: 0.8027
+
+============================================================
+Fold 3/5  |  device: cuda
+============================================================
+Fold 3/5: 35 train volumes, 9 val volumes
+  Train samples: 1412,  Val samples: 323
+Model: InterSliceUNet  in_ch=3  base_ch=64  params=35,581,185
+Epoch   1/100  train_loss=0.7010  val_loss=0.6135  dice=0.7351  iou=0.5872  lr=1.00e-04  t=43.9s
+  ✓ Best model saved  (dice=0.7351)
+Epoch   2/100  train_loss=0.5765  val_loss=0.5444  dice=0.7393  iou=0.5970  lr=9.99e-05  t=43.9s
+  ✓ Best model saved  (dice=0.7393)
+Epoch   3/100  train_loss=0.5352  val_loss=0.5181  dice=0.7315  iou=0.5875  lr=9.98e-05  t=43.9s
+Epoch   4/100  train_loss=0.5122  val_loss=0.4981  dice=0.7450  iou=0.6000  lr=9.96e-05  t=43.8s
+  ✓ Best model saved  (dice=0.7450)
+Epoch   5/100  train_loss=0.4930  val_loss=0.5257  dice=0.6428  iou=0.4831  lr=9.94e-05  t=43.8s
+Epoch   6/100  train_loss=0.4715  val_loss=0.4510  dice=0.8011  iou=0.6727  lr=9.91e-05  t=43.8s
+  ✓ Best model saved  (dice=0.8011)
+Epoch   7/100  train_loss=0.4507  val_loss=0.4332  dice=0.8222  iou=0.7004  lr=9.88e-05  t=43.8s
+  ✓ Best model saved  (dice=0.8222)
+Epoch   8/100  train_loss=0.4344  val_loss=0.4184  dice=0.8097  iou=0.6842  lr=9.84e-05  t=43.8s
+Epoch   9/100  train_loss=0.4193  val_loss=0.3969  dice=0.7913  iou=0.6602  lr=9.80e-05  t=43.9s
+Epoch  10/100  train_loss=0.4062  val_loss=0.3934  dice=0.8320  iou=0.7144  lr=9.76e-05  t=43.9s
+  ✓ Best model saved  (dice=0.8320)
+Epoch  11/100  train_loss=0.3893  val_loss=0.3688  dice=0.8160  iou=0.6923  lr=9.71e-05  t=44.1s
+Epoch  12/100  train_loss=0.3765  val_loss=0.3457  dice=0.8283  iou=0.7096  lr=9.65e-05  t=44.1s
+Epoch  13/100  train_loss=0.3629  val_loss=0.3431  dice=0.8259  iou=0.7062  lr=9.59e-05  t=43.9s
+Epoch  14/100  train_loss=0.3500  val_loss=0.3533  dice=0.7924  iou=0.6597  lr=9.53e-05  t=44.0s
+Epoch  15/100  train_loss=0.3369  val_loss=0.3255  dice=0.8257  iou=0.7060  lr=9.46e-05  t=43.9s
+Epoch  16/100  train_loss=0.3294  val_loss=0.3357  dice=0.7936  iou=0.6605  lr=9.39e-05  t=43.9s
+Epoch  17/100  train_loss=0.3150  val_loss=0.3182  dice=0.8035  iou=0.6751  lr=9.31e-05  t=43.9s
+Epoch  18/100  train_loss=0.3028  val_loss=0.2915  dice=0.8400  iou=0.7260  lr=9.23e-05  t=44.0s
+  ✓ Best model saved  (dice=0.8400)
+Epoch  19/100  train_loss=0.2947  val_loss=0.2939  dice=0.8317  iou=0.7141  lr=9.14e-05  t=43.9s
+Epoch  20/100  train_loss=0.2846  val_loss=0.2954  dice=0.8228  iou=0.7016  lr=9.05e-05  t=43.9s
+Epoch  21/100  train_loss=0.2803  val_loss=0.2791  dice=0.8371  iou=0.7220  lr=8.96e-05  t=44.0s
+Epoch  22/100  train_loss=0.2727  val_loss=0.2798  dice=0.8285  iou=0.7104  lr=8.86e-05  t=44.0s
+Epoch  23/100  train_loss=0.2647  val_loss=0.2616  dice=0.8314  iou=0.7139  lr=8.76e-05  t=44.1s
+Epoch  24/100  train_loss=0.2629  val_loss=0.2740  dice=0.8414  iou=0.7279  lr=8.66e-05  t=44.0s
+  ✓ Best model saved  (dice=0.8414)
+Epoch  25/100  train_loss=0.2514  val_loss=0.2587  dice=0.8360  iou=0.7207  lr=8.55e-05  t=44.0s
+Epoch  26/100  train_loss=0.2448  val_loss=0.2600  dice=0.8343  iou=0.7180  lr=8.44e-05  t=44.1s
+Epoch  27/100  train_loss=0.2381  val_loss=0.2517  dice=0.8373  iou=0.7226  lr=8.32e-05  t=44.0s
+Epoch  28/100  train_loss=0.2357  val_loss=0.2522  dice=0.8313  iou=0.7142  lr=8.21e-05  t=44.1s
+Epoch  29/100  train_loss=0.2295  val_loss=0.2544  dice=0.8277  iou=0.7090  lr=8.08e-05  t=44.2s
+Epoch  30/100  train_loss=0.2257  val_loss=0.2508  dice=0.8292  iou=0.7110  lr=7.96e-05  t=44.0s
+Epoch  31/100  train_loss=0.2222  val_loss=0.2574  dice=0.8448  iou=0.7335  lr=7.83e-05  t=43.8s
+  ✓ Best model saved  (dice=0.8448)
+Epoch  32/100  train_loss=0.2190  val_loss=0.2455  dice=0.8302  iou=0.7122  lr=7.70e-05  t=43.9s
+Epoch  33/100  train_loss=0.2137  val_loss=0.2490  dice=0.8418  iou=0.7288  lr=7.57e-05  t=43.8s
+Epoch  34/100  train_loss=0.2117  val_loss=0.2422  dice=0.8294  iou=0.7115  lr=7.43e-05  t=43.9s
+Epoch  35/100  train_loss=0.2093  val_loss=0.2365  dice=0.8409  iou=0.7277  lr=7.30e-05  t=43.8s
+Epoch  36/100  train_loss=0.2038  val_loss=0.2380  dice=0.8376  iou=0.7231  lr=7.16e-05  t=43.8s
+Epoch  37/100  train_loss=0.2029  val_loss=0.2381  dice=0.8366  iou=0.7218  lr=7.02e-05  t=43.9s
+Epoch  38/100  train_loss=0.2018  val_loss=0.2360  dice=0.8339  iou=0.7180  lr=6.87e-05  t=43.9s
+Epoch  39/100  train_loss=0.1985  val_loss=0.2378  dice=0.8332  iou=0.7173  lr=6.73e-05  t=43.8s
+Epoch  40/100  train_loss=0.1983  val_loss=0.2375  dice=0.8255  iou=0.7065  lr=6.58e-05  t=43.9s
+Epoch  41/100  train_loss=0.1964  val_loss=0.2359  dice=0.8429  iou=0.7308  lr=6.43e-05  t=44.1s
+Epoch  42/100  train_loss=0.1949  val_loss=0.2388  dice=0.8317  iou=0.7149  lr=6.28e-05  t=44.1s
+Epoch  43/100  train_loss=0.1928  val_loss=0.2377  dice=0.8398  iou=0.7263  lr=6.13e-05  t=44.1s
+Epoch  44/100  train_loss=0.1902  val_loss=0.2317  dice=0.8299  iou=0.7125  lr=5.98e-05  t=44.0s
+Epoch  45/100  train_loss=0.1880  val_loss=0.2306  dice=0.8345  iou=0.7190  lr=5.82e-05  t=44.1s
+Epoch  46/100  train_loss=0.1875  val_loss=0.2326  dice=0.8357  iou=0.7205  lr=5.67e-05  t=44.0s
+Epoch  47/100  train_loss=0.1865  val_loss=0.2318  dice=0.8202  iou=0.6994  lr=5.52e-05  t=44.1s
+Epoch  48/100  train_loss=0.1851  val_loss=0.2336  dice=0.8376  iou=0.7231  lr=5.36e-05  t=44.0s
+Epoch  49/100  train_loss=0.1834  val_loss=0.2374  dice=0.8426  iou=0.7307  lr=5.21e-05  t=44.0s
+Epoch  50/100  train_loss=0.1827  val_loss=0.2351  dice=0.8352  iou=0.7198  lr=5.05e-05  t=44.0s
+Epoch  51/100  train_loss=0.1822  val_loss=0.2371  dice=0.8428  iou=0.7307  lr=4.89e-05  t=44.0s
+Epoch  52/100  train_loss=0.1809  val_loss=0.2290  dice=0.8418  iou=0.7291  lr=4.74e-05  t=43.9s
+Epoch  53/100  train_loss=0.1798  val_loss=0.2345  dice=0.8362  iou=0.7213  lr=4.58e-05  t=43.9s
+Epoch  54/100  train_loss=0.1784  val_loss=0.2312  dice=0.8371  iou=0.7227  lr=4.43e-05  t=43.8s
+Epoch  55/100  train_loss=0.1786  val_loss=0.2340  dice=0.8408  iou=0.7278  lr=4.28e-05  t=43.9s
+Epoch  56/100  train_loss=0.1777  val_loss=0.2284  dice=0.8412  iou=0.7285  lr=4.12e-05  t=43.8s
+Epoch  57/100  train_loss=0.1771  val_loss=0.2305  dice=0.8355  iou=0.7203  lr=3.97e-05  t=43.9s
+Epoch  58/100  train_loss=0.1776  val_loss=0.2332  dice=0.8463  iou=0.7355  lr=3.82e-05  t=43.9s
+  ✓ Best model saved  (dice=0.8463)
+Epoch  59/100  train_loss=0.1765  val_loss=0.2293  dice=0.8419  iou=0.7290  lr=3.67e-05  t=43.8s
+Epoch  60/100  train_loss=0.1748  val_loss=0.2354  dice=0.8432  iou=0.7312  lr=3.52e-05  t=43.9s
+Epoch  61/100  train_loss=0.1748  val_loss=0.2345  dice=0.8439  iou=0.7322  lr=3.37e-05  t=44.0s
+Epoch  62/100  train_loss=0.1737  val_loss=0.2283  dice=0.8417  iou=0.7292  lr=3.23e-05  t=43.9s
+Epoch  63/100  train_loss=0.1728  val_loss=0.2311  dice=0.8383  iou=0.7242  lr=3.08e-05  t=43.9s
+Epoch  64/100  train_loss=0.1732  val_loss=0.2321  dice=0.8381  iou=0.7241  lr=2.94e-05  t=43.8s
+Epoch  65/100  train_loss=0.1727  val_loss=0.2387  dice=0.8416  iou=0.7287  lr=2.80e-05  t=44.0s
+Epoch  66/100  train_loss=0.1720  val_loss=0.2375  dice=0.8424  iou=0.7299  lr=2.67e-05  t=43.9s
+Epoch  67/100  train_loss=0.1721  val_loss=0.2249  dice=0.8405  iou=0.7272  lr=2.53e-05  t=43.9s
+Epoch  68/100  train_loss=0.1729  val_loss=0.2297  dice=0.8393  iou=0.7259  lr=2.40e-05  t=43.8s
+Epoch  69/100  train_loss=0.1725  val_loss=0.2317  dice=0.8397  iou=0.7261  lr=2.27e-05  t=43.9s
+Epoch  70/100  train_loss=0.1707  val_loss=0.2286  dice=0.8392  iou=0.7255  lr=2.14e-05  t=43.9s
+Epoch  71/100  train_loss=0.1704  val_loss=0.2269  dice=0.8391  iou=0.7254  lr=2.02e-05  t=44.0s
+Epoch  72/100  train_loss=0.1705  val_loss=0.2290  dice=0.8368  iou=0.7224  lr=1.89e-05  t=44.2s
+Epoch  73/100  train_loss=0.1702  val_loss=0.2286  dice=0.8395  iou=0.7263  lr=1.78e-05  t=44.1s
+Epoch  74/100  train_loss=0.1700  val_loss=0.2320  dice=0.8388  iou=0.7253  lr=1.66e-05  t=44.1s
+Epoch  75/100  train_loss=0.1694  val_loss=0.2281  dice=0.8405  iou=0.7274  lr=1.55e-05  t=44.0s
+Epoch  76/100  train_loss=0.1694  val_loss=0.2285  dice=0.8376  iou=0.7235  lr=1.44e-05  t=44.1s
+Epoch  77/100  train_loss=0.1701  val_loss=0.2275  dice=0.8358  iou=0.7210  lr=1.34e-05  t=44.2s
+Epoch  78/100  train_loss=0.1689  val_loss=0.2314  dice=0.8379  iou=0.7237  lr=1.24e-05  t=44.0s
+Epoch  79/100  train_loss=0.1679  val_loss=0.2267  dice=0.8375  iou=0.7230  lr=1.14e-05  t=44.1s
+Epoch  80/100  train_loss=0.1681  val_loss=0.2280  dice=0.8374  iou=0.7231  lr=1.05e-05  t=44.2s
+Epoch  81/100  train_loss=0.1680  val_loss=0.2263  dice=0.8352  iou=0.7198  lr=9.56e-06  t=43.9s
+Epoch  82/100  train_loss=0.1675  val_loss=0.2293  dice=0.8398  iou=0.7265  lr=8.71e-06  t=43.8s
+Epoch  83/100  train_loss=0.1679  val_loss=0.2264  dice=0.8358  iou=0.7209  lr=7.89e-06  t=43.9s
+Epoch  84/100  train_loss=0.1676  val_loss=0.2285  dice=0.8407  iou=0.7276  lr=7.12e-06  t=43.8s
+Epoch  85/100  train_loss=0.1671  val_loss=0.2257  dice=0.8354  iou=0.7202  lr=6.40e-06  t=44.0s
+Epoch  86/100  train_loss=0.1677  val_loss=0.2352  dice=0.8416  iou=0.7289  lr=5.71e-06  t=43.9s
+Epoch  87/100  train_loss=0.1667  val_loss=0.2319  dice=0.8375  iou=0.7233  lr=5.07e-06  t=44.0s
+Epoch  88/100  train_loss=0.1673  val_loss=0.2280  dice=0.8396  iou=0.7261  lr=4.48e-06  t=43.9s
+Epoch  89/100  train_loss=0.1668  val_loss=0.2309  dice=0.8388  iou=0.7251  lr=3.93e-06  t=43.9s
+Epoch  90/100  train_loss=0.1663  val_loss=0.2237  dice=0.8323  iou=0.7160  lr=3.42e-06  t=43.9s
+Epoch  91/100  train_loss=0.1673  val_loss=0.2290  dice=0.8364  iou=0.7217  lr=2.97e-06  t=44.1s
+Epoch  92/100  train_loss=0.1670  val_loss=0.2356  dice=0.8390  iou=0.7253  lr=2.56e-06  t=44.1s
+Epoch  93/100  train_loss=0.1672  val_loss=0.2285  dice=0.8352  iou=0.7202  lr=2.19e-06  t=44.1s
+Epoch  94/100  train_loss=0.1667  val_loss=0.2272  dice=0.8378  iou=0.7236  lr=1.88e-06  t=44.1s
+Epoch  95/100  train_loss=0.1671  val_loss=0.2321  dice=0.8378  iou=0.7237  lr=1.61e-06  t=44.1s
+Epoch  96/100  train_loss=0.1662  val_loss=0.2340  dice=0.8376  iou=0.7233  lr=1.39e-06  t=44.1s
+Epoch  97/100  train_loss=0.1666  val_loss=0.2300  dice=0.8369  iou=0.7225  lr=1.22e-06  t=44.1s
+Epoch  98/100  train_loss=0.1667  val_loss=0.2256  dice=0.8339  iou=0.7183  lr=1.10e-06  t=44.1s
+Epoch  99/100  train_loss=0.1665  val_loss=0.2272  dice=0.8356  iou=0.7206  lr=1.02e-06  t=44.1s
+Epoch 100/100  train_loss=0.1665  val_loss=0.2284  dice=0.8360  iou=0.7213  lr=1.00e-06  t=44.0s
+
+Fold 3 — Final evaluation (with HD95)...
+[Fold 3] Dice=0.8360  IoU=0.7213  HD95=3.23  Prec=0.8013  Rec=0.8850
+
+Fold 3 done. Best dice: 0.8463
+
+============================================================
+Fold 4/5  |  device: cuda
+============================================================
+Fold 4/5: 36 train volumes, 8 val volumes
+  Train samples: 1491,  Val samples: 244
+Model: InterSliceUNet  in_ch=3  base_ch=64  params=35,581,185
+Epoch   1/100  train_loss=0.7089  val_loss=0.6344  dice=0.7471  iou=0.5998  lr=1.00e-04  t=42.9s
+  ✓ Best model saved  (dice=0.7471)
+Epoch   2/100  train_loss=0.5821  val_loss=0.5657  dice=0.7505  iou=0.6137  lr=9.99e-05  t=42.9s
+  ✓ Best model saved  (dice=0.7505)
+Epoch   3/100  train_loss=0.5417  val_loss=0.5417  dice=0.7868  iou=0.6592  lr=9.98e-05  t=42.9s
+  ✓ Best model saved  (dice=0.7868)
+Epoch   4/100  train_loss=0.5150  val_loss=0.5209  dice=0.7747  iou=0.6426  lr=9.96e-05  t=42.9s
+Epoch   5/100  train_loss=0.4935  val_loss=0.4832  dice=0.7408  iou=0.5968  lr=9.94e-05  t=42.7s
+Epoch   6/100  train_loss=0.4744  val_loss=0.4562  dice=0.7147  iou=0.5673  lr=9.91e-05  t=42.8s
+Epoch   7/100  train_loss=0.4556  val_loss=0.4641  dice=0.7678  iou=0.6351  lr=9.88e-05  t=42.9s
+Epoch   8/100  train_loss=0.4384  val_loss=0.4422  dice=0.8093  iou=0.6859  lr=9.84e-05  t=42.7s
+  ✓ Best model saved  (dice=0.8093)
+Epoch   9/100  train_loss=0.4226  val_loss=0.4121  dice=0.7854  iou=0.6535  lr=9.80e-05  t=42.8s
+Epoch  10/100  train_loss=0.4054  val_loss=0.4072  dice=0.7801  iou=0.6490  lr=9.76e-05  t=42.8s
+Epoch  11/100  train_loss=0.3934  val_loss=0.4045  dice=0.8357  iou=0.7215  lr=9.71e-05  t=42.9s
+  ✓ Best model saved  (dice=0.8357)
+Epoch  12/100  train_loss=0.3772  val_loss=0.3868  dice=0.8253  iou=0.7096  lr=9.65e-05  t=42.8s
+Epoch  13/100  train_loss=0.3652  val_loss=0.3734  dice=0.7999  iou=0.6763  lr=9.59e-05  t=42.8s
+Epoch  14/100  train_loss=0.3502  val_loss=0.3556  dice=0.8098  iou=0.6874  lr=9.53e-05  t=42.9s
+Epoch  15/100  train_loss=0.3397  val_loss=0.3357  dice=0.7947  iou=0.6661  lr=9.46e-05  t=42.7s
+Epoch  16/100  train_loss=0.3281  val_loss=0.3281  dice=0.8217  iou=0.7033  lr=9.39e-05  t=42.9s
+Epoch  17/100  train_loss=0.3165  val_loss=0.3188  dice=0.8284  iou=0.7114  lr=9.31e-05  t=42.8s
+Epoch  18/100  train_loss=0.3064  val_loss=0.3031  dice=0.8226  iou=0.7034  lr=9.23e-05  t=42.8s
+Epoch  19/100  train_loss=0.3002  val_loss=0.2897  dice=0.7976  iou=0.6725  lr=9.14e-05  t=42.9s
+Epoch  20/100  train_loss=0.2972  val_loss=0.3023  dice=0.7997  iou=0.6743  lr=9.05e-05  t=42.9s
+Epoch  21/100  train_loss=0.2836  val_loss=0.2851  dice=0.8025  iou=0.6754  lr=8.96e-05  t=42.9s
+Epoch  22/100  train_loss=0.2720  val_loss=0.2798  dice=0.8295  iou=0.7129  lr=8.86e-05  t=42.9s
+Epoch  23/100  train_loss=0.2661  val_loss=0.2682  dice=0.8391  iou=0.7264  lr=8.76e-05  t=42.9s
+  ✓ Best model saved  (dice=0.8391)
+Epoch  24/100  train_loss=0.2595  val_loss=0.2632  dice=0.8265  iou=0.7073  lr=8.66e-05  t=43.0s
+Epoch  25/100  train_loss=0.2517  val_loss=0.2483  dice=0.8348  iou=0.7200  lr=8.55e-05  t=42.9s
+Epoch  26/100  train_loss=0.2459  val_loss=0.2592  dice=0.8364  iou=0.7219  lr=8.44e-05  t=43.0s
+Epoch  27/100  train_loss=0.2397  val_loss=0.2449  dice=0.8436  iou=0.7326  lr=8.32e-05  t=42.9s
+  ✓ Best model saved  (dice=0.8436)
+Epoch  28/100  train_loss=0.2334  val_loss=0.2407  dice=0.8342  iou=0.7183  lr=8.21e-05  t=43.0s
+Epoch  29/100  train_loss=0.2290  val_loss=0.2407  dice=0.8460  iou=0.7357  lr=8.08e-05  t=42.9s
+  ✓ Best model saved  (dice=0.8460)
+Epoch  30/100  train_loss=0.2267  val_loss=0.2326  dice=0.8284  iou=0.7119  lr=7.96e-05  t=42.9s
+Epoch  31/100  train_loss=0.2256  val_loss=0.2309  dice=0.8409  iou=0.7287  lr=7.83e-05  t=42.9s
+Epoch  32/100  train_loss=0.2235  val_loss=0.2418  dice=0.8420  iou=0.7293  lr=7.70e-05  t=42.8s
+Epoch  33/100  train_loss=0.2179  val_loss=0.2445  dice=0.8433  iou=0.7308  lr=7.57e-05  t=42.8s
+Epoch  34/100  train_loss=0.2139  val_loss=0.2231  dice=0.8344  iou=0.7184  lr=7.43e-05  t=42.8s
+Epoch  35/100  train_loss=0.2114  val_loss=0.2242  dice=0.8511  iou=0.7429  lr=7.30e-05  t=42.8s
+  ✓ Best model saved  (dice=0.8511)
+Epoch  36/100  train_loss=0.2060  val_loss=0.2155  dice=0.8421  iou=0.7300  lr=7.16e-05  t=42.8s
+Epoch  37/100  train_loss=0.2061  val_loss=0.2207  dice=0.8501  iou=0.7416  lr=7.02e-05  t=42.9s
+Epoch  38/100  train_loss=0.2073  val_loss=0.2171  dice=0.8431  iou=0.7329  lr=6.87e-05  t=42.9s
+Epoch  39/100  train_loss=0.2020  val_loss=0.2173  dice=0.8331  iou=0.7176  lr=6.73e-05  t=42.9s
+Epoch  40/100  train_loss=0.1994  val_loss=0.2133  dice=0.8491  iou=0.7404  lr=6.58e-05  t=42.8s
+Epoch  41/100  train_loss=0.1979  val_loss=0.2150  dice=0.8266  iou=0.7065  lr=6.43e-05  t=43.0s
+Epoch  42/100  train_loss=0.1959  val_loss=0.2185  dice=0.8389  iou=0.7247  lr=6.28e-05  t=43.1s
+Epoch  43/100  train_loss=0.1948  val_loss=0.2111  dice=0.8424  iou=0.7305  lr=6.13e-05  t=43.0s
+Epoch  44/100  train_loss=0.1924  val_loss=0.2042  dice=0.8412  iou=0.7282  lr=5.98e-05  t=43.1s
+Epoch  45/100  train_loss=0.1914  val_loss=0.2186  dice=0.8508  iou=0.7424  lr=5.82e-05  t=42.9s
+Epoch  46/100  train_loss=0.1898  val_loss=0.2021  dice=0.8470  iou=0.7369  lr=5.67e-05  t=43.0s
+Epoch  47/100  train_loss=0.1904  val_loss=0.2027  dice=0.8436  iou=0.7312  lr=5.52e-05  t=43.0s
+Epoch  48/100  train_loss=0.1879  val_loss=0.2037  dice=0.8383  iou=0.7234  lr=5.36e-05  t=43.0s
+Epoch  49/100  train_loss=0.1861  val_loss=0.1980  dice=0.8422  iou=0.7288  lr=5.21e-05  t=43.0s
+Epoch  50/100  train_loss=0.1849  val_loss=0.2072  dice=0.8432  iou=0.7301  lr=5.05e-05  t=43.0s
+Epoch  51/100  train_loss=0.1852  val_loss=0.2032  dice=0.8488  iou=0.7391  lr=4.89e-05  t=43.0s
+Epoch  52/100  train_loss=0.1853  val_loss=0.2014  dice=0.8453  iou=0.7334  lr=4.74e-05  t=42.9s
+Epoch  53/100  train_loss=0.1844  val_loss=0.1952  dice=0.8460  iou=0.7349  lr=4.58e-05  t=42.9s
+Epoch  54/100  train_loss=0.1829  val_loss=0.1931  dice=0.8553  iou=0.7489  lr=4.43e-05  t=42.9s
+  ✓ Best model saved  (dice=0.8553)
+Epoch  55/100  train_loss=0.1805  val_loss=0.1960  dice=0.8387  iou=0.7238  lr=4.28e-05  t=42.9s
+Epoch  56/100  train_loss=0.1801  val_loss=0.1988  dice=0.8557  iou=0.7493  lr=4.12e-05  t=43.0s
+  ✓ Best model saved  (dice=0.8557)
+Epoch  57/100  train_loss=0.1804  val_loss=0.1953  dice=0.8452  iou=0.7339  lr=3.97e-05  t=42.9s
+Epoch  58/100  train_loss=0.1795  val_loss=0.1985  dice=0.8339  iou=0.7178  lr=3.82e-05  t=42.9s
+Epoch  59/100  train_loss=0.1788  val_loss=0.1991  dice=0.8440  iou=0.7313  lr=3.67e-05  t=42.9s
+Epoch  60/100  train_loss=0.1787  val_loss=0.1937  dice=0.8403  iou=0.7269  lr=3.52e-05  t=42.9s
+Epoch  61/100  train_loss=0.1786  val_loss=0.1851  dice=0.8487  iou=0.7394  lr=3.37e-05  t=43.0s
+Epoch  62/100  train_loss=0.1778  val_loss=0.1926  dice=0.8445  iou=0.7326  lr=3.23e-05  t=42.9s
+Epoch  63/100  train_loss=0.1760  val_loss=0.1930  dice=0.8416  iou=0.7287  lr=3.08e-05  t=42.9s
+Epoch  64/100  train_loss=0.1767  val_loss=0.1960  dice=0.8460  iou=0.7350  lr=2.94e-05  t=42.9s
+Epoch  65/100  train_loss=0.1749  val_loss=0.2011  dice=0.8379  iou=0.7228  lr=2.80e-05  t=43.1s
+Epoch  66/100  train_loss=0.1754  val_loss=0.2008  dice=0.8453  iou=0.7342  lr=2.67e-05  t=42.9s
+Epoch  67/100  train_loss=0.1755  val_loss=0.1948  dice=0.8421  iou=0.7300  lr=2.53e-05  t=43.0s
+Epoch  68/100  train_loss=0.1754  val_loss=0.1925  dice=0.8510  iou=0.7425  lr=2.40e-05  t=42.9s
+Epoch  69/100  train_loss=0.1748  val_loss=0.1884  dice=0.8488  iou=0.7394  lr=2.27e-05  t=43.1s
+Epoch  70/100  train_loss=0.1743  val_loss=0.1922  dice=0.8506  iou=0.7417  lr=2.14e-05  t=43.0s
+Epoch  71/100  train_loss=0.1737  val_loss=0.1933  dice=0.8486  iou=0.7389  lr=2.02e-05  t=42.9s
+Epoch  72/100  train_loss=0.1734  val_loss=0.1904  dice=0.8390  iou=0.7244  lr=1.89e-05  t=42.9s
+Epoch  73/100  train_loss=0.1731  val_loss=0.1942  dice=0.8455  iou=0.7343  lr=1.78e-05  t=42.9s
+Epoch  74/100  train_loss=0.1737  val_loss=0.1918  dice=0.8443  iou=0.7325  lr=1.66e-05  t=42.9s
+Epoch  75/100  train_loss=0.1730  val_loss=0.1894  dice=0.8438  iou=0.7317  lr=1.55e-05  t=42.9s
+Epoch  76/100  train_loss=0.1734  val_loss=0.1915  dice=0.8365  iou=0.7210  lr=1.44e-05  t=42.9s
+Epoch  77/100  train_loss=0.1720  val_loss=0.1888  dice=0.8464  iou=0.7352  lr=1.34e-05  t=42.8s
+Epoch  78/100  train_loss=0.1715  val_loss=0.1924  dice=0.8520  iou=0.7437  lr=1.24e-05  t=42.9s
+Epoch  79/100  train_loss=0.1724  val_loss=0.1896  dice=0.8441  iou=0.7321  lr=1.14e-05  t=43.0s
+Epoch  80/100  train_loss=0.1713  val_loss=0.1906  dice=0.8416  iou=0.7285  lr=1.05e-05  t=42.9s
+Epoch  81/100  train_loss=0.1718  val_loss=0.1907  dice=0.8408  iou=0.7276  lr=9.56e-06  t=42.8s
+Epoch  82/100  train_loss=0.1710  val_loss=0.1923  dice=0.8445  iou=0.7329  lr=8.71e-06  t=42.9s
+Epoch  83/100  train_loss=0.1727  val_loss=0.1890  dice=0.8415  iou=0.7283  lr=7.89e-06  t=42.9s
+Epoch  84/100  train_loss=0.1702  val_loss=0.1918  dice=0.8374  iou=0.7225  lr=7.12e-06  t=42.9s
+Epoch  85/100  train_loss=0.1701  val_loss=0.1909  dice=0.8428  iou=0.7303  lr=6.40e-06  t=43.0s
+Epoch  86/100  train_loss=0.1703  val_loss=0.1893  dice=0.8418  iou=0.7291  lr=5.71e-06  t=42.9s
+Epoch  87/100  train_loss=0.1710  val_loss=0.1930  dice=0.8420  iou=0.7290  lr=5.07e-06  t=43.0s
+Epoch  88/100  train_loss=0.1714  val_loss=0.1911  dice=0.8433  iou=0.7312  lr=4.48e-06  t=42.9s
+Epoch  89/100  train_loss=0.1703  val_loss=0.1943  dice=0.8381  iou=0.7233  lr=3.93e-06  t=42.8s
+Epoch  90/100  train_loss=0.1710  val_loss=0.1931  dice=0.8433  iou=0.7312  lr=3.42e-06  t=42.8s
+Epoch  91/100  train_loss=0.1707  val_loss=0.1896  dice=0.8399  iou=0.7261  lr=2.97e-06  t=43.1s
+Epoch  92/100  train_loss=0.1707  val_loss=0.1904  dice=0.8416  iou=0.7286  lr=2.56e-06  t=43.1s
+Epoch  93/100  train_loss=0.1698  val_loss=0.1915  dice=0.8394  iou=0.7254  lr=2.19e-06  t=43.0s
+Epoch  94/100  train_loss=0.1694  val_loss=0.1907  dice=0.8439  iou=0.7322  lr=1.88e-06  t=43.0s
+Epoch  95/100  train_loss=0.1696  val_loss=0.1911  dice=0.8440  iou=0.7323  lr=1.61e-06  t=43.0s
+Epoch  96/100  train_loss=0.1703  val_loss=0.1926  dice=0.8443  iou=0.7325  lr=1.39e-06  t=43.1s
+Epoch  97/100  train_loss=0.1699  val_loss=0.1918  dice=0.8457  iou=0.7347  lr=1.22e-06  t=43.1s
+Epoch  98/100  train_loss=0.1695  val_loss=0.1894  dice=0.8475  iou=0.7373  lr=1.10e-06  t=43.1s
+Epoch  99/100  train_loss=0.1706  val_loss=0.1919  dice=0.8431  iou=0.7310  lr=1.02e-06  t=43.0s
+Epoch 100/100  train_loss=0.1699  val_loss=0.1906  dice=0.8435  iou=0.7316  lr=1.00e-06  t=43.0s
+
+Fold 4 — Final evaluation (with HD95)...
+[Fold 4] Dice=0.8435  IoU=0.7316  HD95=3.72  Prec=0.7848  Rec=0.9186
+
+Fold 4 done. Best dice: 0.8557
+
+============================================================
+Cross-validation summary (5 folds)
+============================================================
+  dice        : 0.8310 ± 0.0262
+  iou         : 0.7145 ± 0.0373
+  precision   : 0.8151 ± 0.0698
+  recall      : 0.8701 ± 0.0385
+  hd95        : 3.50 ± 0.58

@@ -1,0 +1,23 @@
+# 原始数据和预处理数据（太大）
+data/
+Extend/Extend_data/
+Extended_data/
+
+# 模型权重（太大）
+**/*.pth
+**/*.pt
+
+# 数据文件（太大）
+**/*.npz
+**/*.npy
+**/*.nii
+**/*.nii.gz
+**/*.tiff
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# nohup
+nohup.out

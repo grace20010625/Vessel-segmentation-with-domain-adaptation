@@ -1,0 +1,70 @@
+nohup: ignoring input
+
+============================================================
+Fold 0/5  |  device: cuda
+============================================================
+Fold 0/5: 35 train volumes, 9 val volumes
+  Train samples: 1380,  Val samples: 355
+Model: Full_Attention_UNet  in_ch=3  base_ch=64  params=36,105,833
+Epoch   1/50  train_loss=0.6169  val_loss=0.5448  dice=0.8209  iou=0.7014  lr=9.99e-05  t=57.3s
+  ✓ Best model saved  (dice=0.8209)
+Epoch   2/50  train_loss=0.5432  val_loss=0.4966  dice=0.8294  iou=0.7140  lr=9.96e-05  t=56.3s
+  ✓ Best model saved  (dice=0.8294)
+Epoch   3/50  train_loss=0.5066  val_loss=0.4809  dice=0.8439  iou=0.7341  lr=9.91e-05  t=56.3s
+  ✓ Best model saved  (dice=0.8439)
+Epoch   4/50  train_loss=0.4728  val_loss=0.4504  dice=0.8530  iou=0.7497  lr=9.84e-05  t=56.5s
+  ✓ Best model saved  (dice=0.8530)
+Epoch   5/50  train_loss=0.4465  val_loss=0.4228  dice=0.8396  iou=0.7294  lr=9.76e-05  t=56.5s
+Epoch   6/50  train_loss=0.4220  val_loss=0.4236  dice=0.8232  iou=0.7141  lr=9.65e-05  t=56.2s
+Epoch   7/50  train_loss=0.3944  val_loss=0.3756  dice=0.8222  iou=0.7069  lr=9.53e-05  t=56.4s
+Epoch   8/50  train_loss=0.3701  val_loss=0.3597  dice=0.8698  iou=0.7741  lr=9.39e-05  t=56.8s
+  ✓ Best model saved  (dice=0.8698)
+Epoch   9/50  train_loss=0.3430  val_loss=0.3547  dice=0.8543  iou=0.7541  lr=9.23e-05  t=56.4s
+Epoch  10/50  train_loss=0.3247  val_loss=0.3511  dice=0.8796  iou=0.7890  lr=9.05e-05  t=56.6s
+  ✓ Best model saved  (dice=0.8796)
+Epoch  11/50  train_loss=0.3065  val_loss=0.3285  dice=0.8432  iou=0.7360  lr=8.86e-05  t=56.5s
+Epoch  12/50  train_loss=0.2923  val_loss=0.3847  dice=0.8018  iou=0.6816  lr=8.66e-05  t=56.3s
+Epoch  13/50  train_loss=0.2757  val_loss=0.3090  dice=0.8627  iou=0.7655  lr=8.44e-05  t=56.4s
+Epoch  14/50  train_loss=0.2593  val_loss=0.2681  dice=0.8544  iou=0.7515  lr=8.21e-05  t=56.5s
+Epoch  15/50  train_loss=0.2434  val_loss=0.2750  dice=0.8625  iou=0.7636  lr=7.96e-05  t=56.4s
+Epoch  16/50  train_loss=0.2349  val_loss=0.2710  dice=0.7988  iou=0.6750  lr=7.70e-05  t=56.3s
+Epoch  17/50  train_loss=0.2274  val_loss=0.2611  dice=0.8455  iou=0.7381  lr=7.43e-05  t=56.1s
+Epoch  18/50  train_loss=0.2128  val_loss=0.2543  dice=0.8616  iou=0.7624  lr=7.16e-05  t=56.8s
+Epoch  19/50  train_loss=0.2075  val_loss=0.2428  dice=0.8540  iou=0.7529  lr=6.87e-05  t=55.9s
+Epoch  20/50  train_loss=0.2000  val_loss=0.2599  dice=0.8268  iou=0.7183  lr=6.58e-05  t=56.5s
+Epoch  21/50  train_loss=0.1973  val_loss=0.2318  dice=0.8745  iou=0.7825  lr=6.28e-05  t=56.1s
+Epoch  22/50  train_loss=0.1879  val_loss=0.2471  dice=0.8665  iou=0.7711  lr=5.98e-05  t=56.2s
+Epoch  23/50  train_loss=0.1848  val_loss=0.2394  dice=0.8506  iou=0.7472  lr=5.67e-05  t=56.0s
+Epoch  24/50  train_loss=0.1773  val_loss=0.2586  dice=0.8611  iou=0.7613  lr=5.36e-05  t=56.3s
+Epoch  25/50  train_loss=0.1781  val_loss=0.2388  dice=0.8820  iou=0.7930  lr=5.05e-05  t=56.8s
+  ✓ Best model saved  (dice=0.8820)
+Epoch  26/50  train_loss=0.1755  val_loss=0.2279  dice=0.8515  iou=0.7500  lr=4.74e-05  t=56.4s
+Epoch  27/50  train_loss=0.1693  val_loss=0.2161  dice=0.8597  iou=0.7608  lr=4.43e-05  t=56.2s
+Epoch  28/50  train_loss=0.1687  val_loss=0.2280  dice=0.8655  iou=0.7714  lr=4.12e-05  t=56.8s
+Epoch  29/50  train_loss=0.1666  val_loss=0.2344  dice=0.8507  iou=0.7480  lr=3.82e-05  t=56.0s
+Epoch  30/50  train_loss=0.1654  val_loss=0.2262  dice=0.8589  iou=0.7582  lr=3.52e-05  t=56.4s
+Epoch  31/50  train_loss=0.1649  val_loss=0.2215  dice=0.8667  iou=0.7709  lr=3.23e-05  t=56.0s
+Epoch  32/50  train_loss=0.1595  val_loss=0.2365  dice=0.8339  iou=0.7253  lr=2.94e-05  t=56.0s
+Epoch  33/50  train_loss=0.1593  val_loss=0.2248  dice=0.8697  iou=0.7758  lr=2.67e-05  t=56.5s
+Epoch  34/50  train_loss=0.1536  val_loss=0.2237  dice=0.8728  iou=0.7792  lr=2.40e-05  t=56.0s
+Epoch  35/50  train_loss=0.1529  val_loss=0.2269  dice=0.8583  iou=0.7589  lr=2.14e-05  t=56.2s
+Epoch  36/50  train_loss=0.1553  val_loss=0.2025  dice=0.8643  iou=0.7665  lr=1.89e-05  t=56.0s
+Epoch  37/50  train_loss=0.1512  val_loss=0.2104  dice=0.8470  iou=0.7430  lr=1.66e-05  t=56.1s
+Epoch  38/50  train_loss=0.1487  val_loss=0.2052  dice=0.8576  iou=0.7579  lr=1.44e-05  t=56.6s
+Epoch  39/50  train_loss=0.1485  val_loss=0.2144  dice=0.8605  iou=0.7617  lr=1.24e-05  t=57.2s
+Epoch  40/50  train_loss=0.1471  val_loss=0.2059  dice=0.8487  iou=0.7452  lr=1.05e-05  t=56.1s
+Epoch  41/50  train_loss=0.1456  val_loss=0.2187  dice=0.8307  iou=0.7212  lr=8.71e-06  t=56.2s
+Epoch  42/50  train_loss=0.1459  val_loss=0.1979  dice=0.8582  iou=0.7579  lr=7.12e-06  t=56.8s
+Epoch  43/50  train_loss=0.1454  val_loss=0.2144  dice=0.8557  iou=0.7539  lr=5.71e-06  t=56.8s
+Epoch  44/50  train_loss=0.1441  val_loss=0.2084  dice=0.8619  iou=0.7630  lr=4.48e-06  t=57.6s
+Epoch  45/50  train_loss=0.1451  val_loss=0.2054  dice=0.8445  iou=0.7374  lr=3.42e-06  t=56.8s
+Epoch  46/50  train_loss=0.1439  val_loss=0.2063  dice=0.8548  iou=0.7524  lr=2.56e-06  t=56.6s
+Epoch  47/50  train_loss=0.1429  val_loss=0.2056  dice=0.8625  iou=0.7637  lr=1.88e-06  t=56.4s
+Epoch  48/50  train_loss=0.1442  val_loss=0.2022  dice=0.8509  iou=0.7467  lr=1.39e-06  t=56.9s
+Epoch  49/50  train_loss=0.1445  val_loss=0.2095  dice=0.8419  iou=0.7338  lr=1.10e-06  t=56.5s
+Epoch  50/50  train_loss=0.1426  val_loss=0.2056  dice=0.8516  iou=0.7476  lr=1.00e-06  t=57.0s
+
+Fold 0 — Final evaluation (with HD95)...
+[Fold 0] Dice=0.8516  IoU=0.7476  HD95=17.39  Prec=0.7794  Rec=0.9520
+
+Fold 0 done. Best dice: 0.8820
