@@ -8,7 +8,7 @@ autodl-tmp/
 │
 ├── data/
 │   ├── raw/                        # Original NIfTI volumes (mv01.nii.gz ... mv70.nii.gz)
-│   │   ├── accepted_scans.txt      # 43 volumes passing quality filter (r >= 0.70)
+│   │   ├── accepted_scans.txt      # 43 volumes passing quality filter
 │   │   └── rejected_scans.txt      # 27 low-quality volumes
 │   ├── seg/                        # Ground truth labels (mv01_y.nii.gz ... mv70_y.nii.gz)
 │   │
