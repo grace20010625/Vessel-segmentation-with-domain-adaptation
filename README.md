@@ -83,7 +83,7 @@ runs_*/
 python scan_quality_filter.py --data_dir ./data/raw --threshold 0.75
 ```
 
-Computes inter-slice Pearson correlation for each volume. Volumes below r=0.70 are rejected (low 3D continuity → 2.5D context less useful).
+Computes inter-slice Pearson correlation for each volume. Volumes below r=0.75 are rejected (low 3D continuity → 2.5D context less useful).
 
 - Accepted: 43 volumes → `accepted_scans.txt`
 - Rejected: 27 volumes → `rejected_scans.txt` (used for OOD test)
