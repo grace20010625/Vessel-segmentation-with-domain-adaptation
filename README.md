@@ -1,7 +1,4 @@
 # DSA5106 Group 3 — Vessel Segmentation with U-Net
-
-Reproduction and extension of U-Net (Ronneberger et al., 2015) for micro-CT vessel segmentation.
-
 ---
 
 ## Project Structure
