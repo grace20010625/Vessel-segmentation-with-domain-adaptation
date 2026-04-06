@@ -1,4 +1,4 @@
-# DSA5106 Group 3 — Vessel Segmentation with U-Net
+# 2.5D Attention U-Net for Vessel Segmentation in In Vivo Multiphoton Microscopy
 ---
 
 ## Project Structure
