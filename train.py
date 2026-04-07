@@ -2,13 +2,10 @@
 train.py — Training script for baseline U-Net vessel segmentation
 ==================================================================
 Usage:
-    # 单折训练
     python train.py --npz_dir ./data/processed --fold 0
 
-    # 全部5折
     python train.py --npz_dir ./data/processed --run_all_folds
 
-    # 自定义参数
     python train.py --npz_dir ./data/processed --fold 0 \
                     --epochs 100 --batch_size 16 --lr 1e-4 --window_k 1
 """
