@@ -7,7 +7,7 @@ def read_nii_gz(path):
     shape = tuple(dim[1:dim[0]+1])
     return np.frombuffer(raw, dtype=np.uint16).reshape(shape, order='C').astype(np.float32)
 
-# 路径改成你自己的
+
 img = read_nii_gz('./data/raw/mv02.nii.gz')
 cap = float(np.percentile(img, 99.9))
 vol_clip = np.clip(img, img.min(), cap)
