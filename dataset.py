@@ -192,7 +192,7 @@ def get_dataloaders(npz_dir, fold=0, n_folds=5, batch_size=8,
     
     if use_all:
         train_paths = all_paths
-        val_paths   = all_paths   # val 也用全部，只是为了监控
+        val_paths   = all_paths   
     else:
         folds = split_folds(npz_dir, n_folds=n_folds, seed=seed)
         train_paths, val_paths = folds[fold]
